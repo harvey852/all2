@@ -1,0 +1,27 @@
+name: Unzip File
+
+on:
+  push:
+    paths:
+      - "*.zip" # 監控 .zip 文件的上傳
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Unzip file
+        run: |
+          mkdir extracted
+          unzip *.zip -d extracted
+
+      - name: Commit extracted files
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git add extracted/
+          git commit -m "Extracted files from zip"
+          git push
