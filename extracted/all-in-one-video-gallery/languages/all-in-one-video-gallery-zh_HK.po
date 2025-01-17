@@ -1,0 +1,4314 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: All-in-One Video Gallery\n"
+"POT-Creation-Date: 2024-07-19 16:12+0530\n"
+"PO-Revision-Date: 2024-09-23 15:06+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;"
+"_n:1,2\n"
+"Last-Translator: \n"
+"Language: zh_TW\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:261 admin/partials/issues.php:77
+msgid "Apply Fix"
+msgstr "應用修復"
+
+#: admin/admin.php:274 admin/partials/issues.php:74
+msgid "Ignore"
+msgstr "忽略"
+
+#: admin/admin.php:300 admin/partials/dashboard.php:14 blocks/blocks.php:37
+msgid "All-in-One Video Gallery"
+msgstr "多合一影片庫"
+
+#: admin/admin.php:301 admin/videos.php:70 includes/functions.php:1506
+#: widgets/videos.php:379
+msgid "Video Gallery"
+msgstr "影片庫"
+
+#: admin/admin.php:311
+msgid "All-in-One Video Gallery - Dashboard"
+msgstr "多合一影片庫-儀表板"
+
+#: admin/admin.php:312
+msgid "Dashboard"
+msgstr "控制台"
+
+#: admin/admin.php:326
+msgid "Shortcode Builder"
+msgstr "短代碼產生器"
+
+#: admin/admin.php:327
+msgid "FAQ"
+msgstr "Q&A"
+
+#: admin/admin.php:336
+msgid "Issues Found"
+msgstr "沒有發現問題"
+
+#: admin/admin.php:559
+msgid "Pages Misconfigured"
+msgstr "頁面設定錯誤"
+
+#: admin/admin.php:561
+#, php-format
+msgid ""
+"During activation, our plugin adds few <a href=\"%s\" target=\"_blank"
+"\">pages</a> dynamically on your website that are required for the internal "
+"logic of the plugin. We found some of those pages are missing, misconfigured "
+"or having a wrong shortcode."
+msgstr ""
+"在啟用期間，我們的插件會在您的網站上動態添加插件的內部邏輯所需的幾個<a href="
+"\"%s\" target=\"_blank\">頁</a>面。我們發現其中一些頁面遺失、設定錯誤或短代碼"
+"錯誤。"
+
+#: admin/admin.php:630
+msgid "Copied!"
+msgstr "已複製"
+
+#: admin/admin.php:631
+msgid "Please select at least one issue."
+msgstr "請至少選擇一個問題。"
+
+#: admin/admin.php:632 widgets/forms/video.php:34
+msgid "No video selected. The last added video will be displayed."
+msgstr "未選擇影片。將顯示上次新增的影片。"
+
+#: admin/admin.php:633
+msgid "Sorry, there is already a video with this quality level."
+msgstr "很抱歉，已有此品質等級的影片。"
+
+#: admin/admin.php:634 blocks/blocks.php:119 widgets/forms/video.php:31
+msgid "Remove"
+msgstr "刪除"
+
+#: admin/admin.php:651
+msgid "Video Category Page"
+msgstr "影片分類頁面"
+
+#: admin/admin.php:655
+msgid "Video Tag Page"
+msgstr "影片標籤頁面"
+
+#: admin/admin.php:659
+msgid "Search Results Page"
+msgstr "搜尋結果頁面"
+
+#: admin/admin.php:663 admin/settings.php:937
+msgid "User Videos Page"
+msgstr "用戶影片頁面"
+
+#: admin/admin.php:667 admin/settings.php:944
+msgid "Player Page"
+msgstr "玩家頁面"
+
+#: admin/admin.php:671
+msgid "User Dashboard Page"
+msgstr "用戶信息板頁面"
+
+#: admin/admin.php:675
+msgid "Video Form Page"
+msgstr "影片表單頁面"
+
+#: admin/admin.php:679
+msgid "My Playlists Page"
+msgstr "我的播放清單"
+
+#: admin/admin.php:696 admin/settings.php:60
+msgid "Settings"
+msgstr "設定"
+
+#: admin/categories.php:32
+msgid "All-in-One Video Gallery - Categories"
+msgstr "多合一影片庫-類別"
+
+#: admin/categories.php:33 admin/categories.php:66
+#: premium/admin/automations.php:279
+#: premium/admin/partials/automations-video-settings.php:61
+#: widgets/categories.php:54
+msgid "Video Categories"
+msgstr "視頻類別"
+
+#: admin/categories.php:67 admin/videos.php:548
+#: premium/admin/automations.php:191 public/videos.php:110
+msgid "All Categories"
+msgstr "所有分类"
+
+#: admin/categories.php:68
+msgid "Parent Category"
+msgstr "上層分類"
+
+#: admin/categories.php:69
+msgid "Parent Category:"
+msgstr "%s 上層分類"
+
+#: admin/categories.php:70
+msgid "New Category Name"
+msgstr "%s 的新分類名稱"
+
+#: admin/categories.php:71
+msgid "Add New Category"
+msgstr "新增類別"
+
+#: admin/categories.php:72
+msgid "Edit Category"
+msgstr "編輯分類"
+
+#: admin/categories.php:73
+msgid "Update Category"
+msgstr "更新分類"
+
+#: admin/categories.php:74
+msgid "View Category"
+msgstr "查看分類"
+
+#: admin/categories.php:75
+msgid "Separate categories with commas"
+msgstr "使用逗號分隔類別"
+
+#: admin/categories.php:76
+msgid "Add or remove categories"
+msgstr "新增或移除分類"
+
+#: admin/categories.php:77 admin/tags.php:77 premium/admin/playlists.php:78
+msgid "Choose from the most used"
+msgstr "從最常使用的標籤中選取"
+
+#: admin/categories.php:78
+msgid "Popular Categories"
+msgstr "常用類別"
+
+#: admin/categories.php:79
+msgid "Search Categories"
+msgstr "搜尋%s分類"
+
+#: admin/categories.php:80 includes/functions.php:1040
+msgid "No categories found"
+msgstr "找不到分类"
+
+#: admin/categories.php:81
+msgid "No categories"
+msgstr "無分類"
+
+#: admin/categories.php:82
+msgid "Categories list"
+msgstr "商品分類清單"
+
+#: admin/categories.php:83
+msgid "Categories list navigation"
+msgstr "分類清單導覽"
+
+#: admin/categories.php:169 admin/settings.php:657 admin/tags.php:114
+#: admin/videos.php:672 blocks/blocks.php:81 includes/functions.php:1848
+#: widgets/forms/categories.php:76
+msgid "ID"
+msgstr "ID"
+
+#: admin/partials/category-fields.php:15 admin/partials/category-fields.php:42
+#: includes/functions.php:1358
+msgid "Image"
+msgstr "图片"
+
+#: admin/partials/category-fields.php:24 admin/partials/category-fields.php:56
+msgid "Add Image"
+msgstr "新增圖片"
+
+#: admin/partials/category-fields.php:25 admin/partials/category-fields.php:57
+msgid "Remove Image"
+msgstr "移除圖片"
+
+#: admin/partials/category-fields.php:32 admin/partials/category-fields.php:63
+msgid "Exclude in Search Form"
+msgstr "在搜索表單中排除"
+
+#: admin/partials/category-fields.php:36 admin/partials/category-fields.php:68
+msgid "Exclude this category in the front-end search form."
+msgstr "在前端搜索表單中排除此類別。"
+
+#: admin/partials/dashboard.php:17
+msgid ""
+"An ultimate video player and video gallery plugin – no coding required. "
+"Suitable for YouTubers, Video Bloggers, Course Creators, Podcasters, Sales & "
+"Marketing Professionals, and anyone using video on a website."
+msgstr ""
+"終極影片播放器和影片庫外掛程式–無需編碼。適合YouTube用戶、影片部落客、課程創"
+"作者、Podcast製作人、銷售與行銷專業人員，以及在網站上使用影片的任何人。"
+
+#: admin/partials/dashboard.php:23
+msgid "Documentation (Premium Version)"
+msgstr "文件（高級版）"
+
+#: admin/partials/dashboard.php:29
+#, php-format
+msgid "Version %s"
+msgstr "版本 %s <strong>可用</strong>。"
+
+#: admin/partials/faq.php:15
+msgid ""
+"Does the plugin support third-party page builders like \"Elementor\", "
+"\"WPBakery\", \"Divi\", etc.?"
+msgstr ""
+"該插件是否支持第三方頁面構建器，如“Elementor” ， “WPBakery” ， “Divi”等？"
+
+#: admin/partials/faq.php:20
+#, php-format
+msgid ""
+"Sure, this is the main reason we developed the shortcode builder. Simply "
+"generate your shortcode using the <a href=\"%s\">Shortcode Builder</a> and "
+"use it in your page builder."
+msgstr ""
+"當然，這是我們開發短代碼構建器的主要原因。只需使用短代碼生成<a href=\"%s\">器"
+"生成短代碼</a>，並在頁面生成器中使用它。"
+
+#: admin/partials/faq.php:26
+msgid "The plugin is not working for me. What should I do now?"
+msgstr "外掛程式不適用於我。我現在該怎麼辦？"
+
+#: admin/partials/faq.php:31
+#, php-format
+msgid ""
+"No Worries. We are just an email away from you. Please contact us <a href="
+"\"%s\">here</a>."
+msgstr ""
+"不用擔心。我們只需一封電子郵件即可與您聯絡。請<a href=\"%s\">在此</a>聯絡我"
+"們。"
+
+#: admin/partials/issues.php:13
+msgid "Issues"
+msgstr ""
+"您正在運行的以下 add-ons 版本尚未使用 Gravity 表單 %s 進行測試。請在更新 "
+"Gravity 表單之前更新或確認相容性，否則可能會遇到問題："
+
+#: admin/partials/issues.php:14
+msgid "Ignored"
+msgstr "透過操作忽略%s"
+
+#: admin/partials/issues.php:26
+msgid "Congrats! Issues solved."
+msgstr "恭喜！問題已解決。"
+
+#: admin/partials/issues.php:26
+msgid "Issues ignored."
+msgstr "已忽略問題。"
+
+#: admin/partials/issues.php:54
+msgid "Issue"
+msgstr "網站問題"
+
+#: admin/partials/issues.php:55
+msgid "Description"
+msgstr "内容描述"
+
+#: admin/partials/issues.php:86
+msgid "You have no ignored issues."
+msgstr "您沒有被忽略的問題。"
+
+#: admin/partials/issues.php:88
+msgid "You have no issues."
+msgstr "您沒有任何問題。"
+
+#: admin/partials/settings.php:28
+msgid "Plugin Settings"
+msgstr "查看设定"
+
+#: admin/partials/shortcode-builder.php:54
+msgid "Select a shortcode type"
+msgstr "選擇短代碼"
+
+#: admin/partials/shortcode-builder.php:87
+#, php-format
+msgid "No videos found. <a href=\"%s\">Add</a> your first video."
+msgstr "找不到影片。<a href=\"%s\">新增</a>您的第一部影片。"
+
+#: admin/partials/shortcode-builder.php:96
+#, php-format
+msgid "No categories found. <a href=\"%s\">Add</a> your first category."
+msgstr "找不到類別。<a href=\"%s\">新增</a>第一個類別。"
+
+#: admin/partials/shortcode-builder.php:161 admin/partials/video-image.php:18
+#: admin/partials/video-sources.php:85 admin/partials/video-sources.php:126
+#: admin/partials/video-sources.php:151 admin/partials/video-sources.php:168
+#: admin/partials/video-sources.php:329 admin/partials/video-tracks.php:40
+#: admin/partials/video-tracks.php:82
+#: premium/public/templates/video-form.php:89
+#: premium/public/templates/video-form.php:114
+#: premium/public/templates/video-form.php:140
+#: premium/public/templates/video-form.php:223
+msgid "Upload File"
+msgstr "上傳檔案"
+
+#: admin/partials/shortcode-builder.php:168 blocks/blocks.php:73
+#: includes/functions.php:1795 widgets/forms/categories.php:43
+#: widgets/forms/categories.php:46
+msgid "Select Parent"
+msgstr "選擇上層"
+
+#: admin/partials/shortcode-builder.php:223
+msgid "Generate Shortcode"
+msgstr "生成短代碼"
+
+#: admin/partials/shortcode-builder.php:231
+msgid "How to add a single video in my POST/PAGE?"
+msgstr "如何在文章／頁面中新增單一影片？"
+
+#: admin/partials/shortcode-builder.php:235
+msgid "You can use one of the following methods,"
+msgstr "您可以使用以下方法之一："
+
+#: admin/partials/shortcode-builder.php:240
+#: admin/partials/shortcode-builder.php:300
+#: admin/partials/shortcode-builder.php:344
+#: admin/partials/shortcode-builder.php:379
+msgid ""
+"Use the shortcode builder in this page to build your shortcode, then add it "
+"in your POST/PAGE."
+msgstr ""
+"使用此頁面中的短代碼生成器來構建您的短代碼，然後將其添加到您的帖子/頁面中。"
+
+#: admin/partials/shortcode-builder.php:246
+#, php-format
+msgid ""
+"<a href=\"%s\">Add</a> your video using our \"Custom Post Type\" form, copy "
+"the shortcode, then add it in your POST/PAGE."
+msgstr ""
+"使用我們的「自訂文章類型」表單<a href=\"%s\">添加</a>您的影片，複製短代碼，然"
+"後將其添加到您的文章/頁面中。"
+
+#: admin/partials/shortcode-builder.php:255
+#, php-format
+msgid ""
+"Use the <a href=\"%s\">AIOVG - Video Player</a> Gutenberg block and add the "
+"video directly in your POST/PAGE."
+msgstr ""
+"使用AIOVG <a href=\"%s\">-影片播放器</a>Gutenberg區塊，並直接在文章/頁面中新"
+"增影片。"
+
+#: admin/partials/shortcode-builder.php:264
+#, php-format
+msgid ""
+"Use the <a href=\"%s\">AIOVG - Video Player</a> widget in your website "
+"sidebars."
+msgstr "使用網站側邊欄中的AIOVG <a href=\"%s\">-影片播放器</a>小工具。"
+
+#: admin/partials/shortcode-builder.php:273
+msgid "How to create/add a video gallery?"
+msgstr "如何建立/新增影片庫？"
+
+#: admin/partials/shortcode-builder.php:279
+#, php-format
+msgid "Optional. <a href=\"%s\">Add Categories</a>"
+msgstr "選填。<a href=\"%s\">新增類別</a>"
+
+#: admin/partials/shortcode-builder.php:288
+#, php-format
+msgid "<a href=\"%s\">Add Videos</a>"
+msgstr "<a href=\"%s\">新增影片</a>"
+
+#: admin/partials/shortcode-builder.php:295
+msgid ""
+"Then, use one of the following methods to build and show the gallery in your "
+"site front-end,"
+msgstr "然後，使用以下方法之一在網站前端建立並顯示圖庫，"
+
+#: admin/partials/shortcode-builder.php:307
+#, php-format
+msgid ""
+"Use the <a href=\"%s\">AIOVG - Video Gallery</a> Gutenberg block in your "
+"POST/PAGE."
+msgstr ""
+"在文章／頁面中使用AIOVG <a href=\"%s\">- Video Gallery</a> Gutenberg區塊。"
+
+#: admin/partials/shortcode-builder.php:317
+#, php-format
+msgid ""
+"Use the <a href=\"%s\">AIOVG - Video Gallery</a> widget in your website "
+"sidebars."
+msgstr "使用網站側邊欄中的AIOVG <a href=\"%s\">-影片庫</a>小工具。"
+
+#: admin/partials/shortcode-builder.php:326
+msgid "How to add/show video categories?"
+msgstr "如何新增/顯示影片類別？"
+
+#: admin/partials/shortcode-builder.php:332
+#, php-format
+msgid "<a href=\"%s\">Add Categories</a>"
+msgstr "<a href=\"%s\">添加類別</a>"
+
+#: admin/partials/shortcode-builder.php:339
+msgid ""
+"Then, use one of the following methods to show the video categories in your "
+"site front-end,"
+msgstr "然後，使用以下其中一種方法在網站前端顯示影片類別，"
+
+#: admin/partials/shortcode-builder.php:351
+#, php-format
+msgid ""
+"Use the <a href=\"%s\">AIOVG - Video Categories</a> Gutenberg block in your "
+"POST/PAGE."
+msgstr "在文章／頁面中使用AIOVG <a href=\"%s\">-影片類別</a>Gutenberg區塊。"
+
+#: admin/partials/shortcode-builder.php:361
+#, php-format
+msgid ""
+"Use the <a href=\"%s\">AIOVG - Video Categories</a> widget in your website "
+"sidebars."
+msgstr "使用網站側邊欄中的AIOVG <a href=\"%s\">-影片類別</a>小工具。"
+
+#: admin/partials/shortcode-builder.php:370
+msgid "How to create video search functionality?"
+msgstr "如何建立影片搜尋功能？"
+
+#: admin/partials/shortcode-builder.php:374
+msgid ""
+"You can use one of the following methods to add the videos search form in "
+"your website,"
+msgstr "您可以使用以下方法之一在您的網站中添加視頻搜索表單，"
+
+#: admin/partials/shortcode-builder.php:385
+#, php-format
+msgid ""
+"Use the <a href=\"%s\">AIOVG - Search Form</a> Gutenberg block in your POST/"
+"PAGE."
+msgstr "在文章/頁面中使用AIOVG <a href=\"%s\">-搜尋表單</a>Gutenberg區塊。"
+
+#: admin/partials/shortcode-builder.php:394
+#, php-format
+msgid ""
+"Use the <a href=\"%s\">AIOVG - Search Form</a> widget in your website "
+"sidebars."
+msgstr "使用網站側邊欄中的AIOVG <a href=\"%s\">-搜尋表單</a>小工具。"
+
+#: admin/partials/shortcode-builder.php:404
+#, php-format
+msgid ""
+"No matter where you add the search form, but the search results will always "
+"be displayed in the <a href=\"%s\">Search Videos</a> page that is added by "
+"our plugin dynamically during the activation."
+msgstr ""
+"無論您在何處新增搜尋表單，搜尋結果都會隨時顯示在「搜尋<a href=\"%s\">影片</"
+"a>」頁面中，該頁面是我們的外掛程式在啟用期間動態新增的。"
+
+#: admin/partials/shortcode-builder.php:416
+msgid ""
+"Congrats! copy the shortcode below and paste it in your POST/PAGE where you "
+"need the gallery,"
+msgstr "恭喜！複製下面的短代碼，並將其粘貼到您需要圖庫的文章/頁面中，"
+
+#: admin/partials/video-chapters.php:24 admin/partials/video-chapters.php:57
+#: admin/partials/video-tracks.php:29 admin/partials/video-tracks.php:71
+msgid "Label"
+msgstr "文字卷标"
+
+#: admin/partials/video-chapters.php:25 admin/partials/video-chapters.php:58
+msgid "Chapter Title"
+msgstr "章節標題"
+
+#: admin/partials/video-chapters.php:29 admin/partials/video-chapters.php:62
+msgid "Time"
+msgstr "定期运行克隆"
+
+#: admin/partials/video-chapters.php:30 admin/partials/video-chapters.php:63
+msgid "Start time in seconds"
+msgstr "開始時間（秒）"
+
+#: admin/partials/video-chapters.php:35 admin/partials/video-chapters.php:68
+#: admin/partials/video-tracks.php:44 admin/partials/video-tracks.php:86
+#: premium/public/templates/user-dashboard.php:227
+msgid "Delete"
+msgstr "删除"
+
+#: admin/partials/video-chapters.php:46
+msgid "[+] Add New Chapter"
+msgstr "[+]添加新章節"
+
+#: admin/partials/video-image.php:16 admin/partials/video-sources.php:83
+#: admin/partials/video-sources.php:124 admin/partials/video-sources.php:149
+#: admin/partials/video-sources.php:166 admin/partials/video-sources.php:327
+#: premium/public/templates/video-form.php:88
+#: premium/public/templates/video-form.php:113
+#: premium/public/templates/video-form.php:139
+#: premium/public/templates/video-form.php:222
+msgid "Enter your direct file URL (OR) upload your file using the button here"
+msgstr "輸入您的直接檔案網址(OR)使用此處的按鈕上傳您的檔案"
+
+#: admin/partials/video-image.php:26
+msgid "Image Alt Text"
+msgstr "圖片替代文字"
+
+#: admin/partials/video-image.php:27
+msgid "Optional"
+msgstr "選填"
+
+#: admin/partials/video-image.php:30
+msgid "Learn how to describe the purpose of the image."
+msgstr "了解如何描述圖片的用途。"
+
+#: admin/partials/video-image.php:38
+msgid "Store this image as a featured image"
+msgstr "將此圖片儲存為特色圖片"
+
+#: admin/partials/video-sources.php:18 includes/functions.php:1294
+#: premium/admin/partials/automations-sources.php:48
+#: premium/admin/partials/automations-sources.php:217
+#: premium/public/templates/video-form.php:51
+msgid "Source Type"
+msgstr "來源類型"
+
+#: admin/partials/video-sources.php:39
+#: premium/public/templates/video-form.php:70
+msgid "Video File"
+msgstr "影片檔網址"
+
+#: admin/partials/video-sources.php:56 admin/partials/video-sources.php:98
+#: admin/partials/video-sources.php:305
+msgid "Select a Quality Level"
+msgstr "選擇品質等級"
+
+#: admin/partials/video-sources.php:57
+msgid "This will be the default quality level for this video"
+msgstr "這將是此影片的預設品質等級"
+
+#: admin/partials/video-sources.php:66 admin/partials/video-sources.php:107
+#: admin/partials/video-sources.php:312 admin/settings.php:320
+msgid "None"
+msgstr "无"
+
+#: admin/partials/video-sources.php:135
+msgid "[+] Add More Quality Levels"
+msgstr "[+]新增更多品質等級"
+
+#: admin/partials/video-sources.php:144
+#: premium/public/templates/video-form.php:107
+msgid "WebM"
+msgstr "WEBM："
+
+#: admin/partials/video-sources.php:145 admin/partials/video-sources.php:162
+#: premium/public/templates/video-form.php:108
+#: premium/public/templates/video-form.php:134
+msgid "deprecated"
+msgstr "取代"
+
+#: admin/partials/video-sources.php:161
+#: premium/public/templates/video-form.php:133
+msgid "OGV"
+msgstr "OGV："
+
+#: admin/partials/video-sources.php:176
+msgid "HLS URL"
+msgstr "HLS URL"
+
+#: admin/partials/video-sources.php:179 admin/partials/video-sources.php:187
+#: admin/partials/video-sources.php:195 admin/partials/video-sources.php:203
+#: admin/partials/video-sources.php:211 admin/partials/video-sources.php:219
+#: admin/partials/video-sources.php:227 includes/functions.php:1310
+#: includes/functions.php:1317 includes/functions.php:1324
+#: includes/functions.php:1331 includes/functions.php:1338
+#: includes/functions.php:1345 includes/functions.php:1352
+#: premium/admin/partials/automations-sources.php:91
+#: premium/admin/partials/automations-sources.php:110
+#: premium/admin/partials/automations-sources.php:128
+#: premium/admin/partials/automations-sources.php:147
+#: premium/admin/partials/automations-sources.php:165
+#: premium/admin/partials/automations-sources.php:176
+#: premium/admin/partials/automations-sources.php:296
+#: premium/admin/partials/automations-sources.php:386
+#: premium/admin/partials/automations-sources.php:404
+#: premium/admin/partials/automations-sources.php:461
+#: premium/public/templates/video-form.php:161
+#: premium/public/templates/video-form.php:170
+#: premium/public/templates/video-form.php:179
+#: premium/public/templates/video-form.php:188
+#: premium/public/templates/video-form.php:197
+#: premium/public/templates/video-form.php:206
+msgid "Example"
+msgstr "例如"
+
+#: admin/partials/video-sources.php:184
+msgid "MPEG-DASH URL"
+msgstr "MPEG-DASH URL"
+
+#: admin/partials/video-sources.php:192
+#: premium/public/templates/video-form.php:169
+msgid "YouTube URL"
+msgstr "YouTube 網址"
+
+#: admin/partials/video-sources.php:200
+#: premium/public/templates/video-form.php:178
+msgid "Vimeo URL"
+msgstr "Vimeo網址"
+
+#: admin/partials/video-sources.php:208
+#: premium/public/templates/video-form.php:187
+msgid "Dailymotion URL"
+msgstr "Dailymotion URL"
+
+#: admin/partials/video-sources.php:216
+#: premium/public/templates/video-form.php:196
+msgid "Rumble URL"
+msgstr "Rumble URL"
+
+#: admin/partials/video-sources.php:224
+#: premium/public/templates/video-form.php:205
+msgid "Facebook URL"
+msgstr "Facebook  網址"
+
+#: admin/partials/video-sources.php:232
+msgid "Player Code"
+msgstr "玩家代碼"
+
+#: admin/partials/video-sources.php:235
+msgid "Enter your Player Code"
+msgstr "輸入您的玩家代碼"
+
+#: admin/partials/video-sources.php:241
+msgid "Warning"
+msgstr "警告"
+
+#: admin/partials/video-sources.php:242
+msgid ""
+"This field allows \"iframe\" and \"script\" tags. So, make sure the code "
+"you're adding with this field is harmless to your website."
+msgstr ""
+"此欄位允許「iframe」和「script」標籤。因此，請確保您在此欄位中新增的代碼對您"
+"的網站無害。"
+
+#: admin/partials/video-sources.php:253 admin/settings.php:601
+#: includes/functions.php:1710
+msgid "Video Duration"
+msgstr "影片播放長度"
+
+#: admin/partials/video-sources.php:261 admin/settings.php:556
+#: admin/settings.php:598 admin/settings.php:742 admin/settings.php:788
+#: includes/functions.php:1562 includes/functions.php:1689
+#: premium/admin/partials/automations-sources.php:197
+msgid "Views Count"
+msgstr "觀看次數"
+
+#: admin/partials/video-sources.php:269 admin/settings.php:557
+#: admin/settings.php:599 admin/settings.php:789 includes/functions.php:1563
+#: includes/functions.php:1696
+msgid "Likes Count"
+msgstr "按讚次數"
+
+#: admin/partials/video-sources.php:277 admin/settings.php:558
+#: admin/settings.php:600 admin/settings.php:790 includes/functions.php:1564
+#: includes/functions.php:1703
+msgid "Dislikes Count"
+msgstr "不喜歡次數"
+
+#: admin/partials/video-sources.php:285
+msgid "Download"
+msgstr "下載"
+
+#: admin/partials/video-sources.php:290
+msgid "Check this option to allow users to download this video."
+msgstr "選中此選項可允許用戶下載此影片。"
+
+#: admin/partials/video-submitbox.php:17
+msgid "Mark as"
+msgstr "列為"
+
+#: admin/partials/video-submitbox.php:18 admin/videos.php:746
+msgid "Featured"
+msgstr "特色"
+
+#: admin/partials/video-submitbox.php:29
+msgid "Video Shortcode"
+msgstr "影片簡碼"
+
+#: admin/partials/video-tracks.php:24 admin/partials/video-tracks.php:66
+msgid "File URL"
+msgstr "檔案網址"
+
+#: admin/partials/video-tracks.php:30 admin/partials/video-tracks.php:72
+msgid "English"
+msgstr "英文"
+
+#: admin/partials/video-tracks.php:34 admin/partials/video-tracks.php:76
+msgid "Srclang"
+msgstr "Srclang"
+
+#: admin/partials/video-tracks.php:35 admin/partials/video-tracks.php:77
+msgid "en"
+msgstr "zh_TW"
+
+#: admin/partials/video-tracks.php:55
+msgid "[+] Add New File"
+msgstr "新增檔案"
+
+#: admin/settings.php:59
+msgid "All-in-One Video Gallery - Settings"
+msgstr "多合一影片庫-設定"
+
+#: admin/settings.php:98 blocks/blocks.php:109 includes/functions.php:1283
+#: includes/functions.php:1509 includes/functions.php:1772
+#: includes/functions.php:1910
+msgid "General"
+msgstr "基本设置"
+
+#: admin/settings.php:99
+msgid "SEO"
+msgstr "性能和SEO優化"
+
+#: admin/settings.php:100 admin/settings.php:194
+msgid "GDPR Compliance"
+msgstr "BE 一般資料保護規範"
+
+#: admin/settings.php:101
+msgid "Advanced"
+msgstr "进阶"
+
+#: admin/settings.php:117
+msgid "Player Settings"
+msgstr "播放器設定"
+
+#: admin/settings.php:124
+msgid "Videos Layout"
+msgstr "影片版面配置"
+
+#: admin/settings.php:131
+msgid "Categories Layout"
+msgstr "商品目錄樣式"
+
+#: admin/settings.php:138
+msgid "Single Video Page"
+msgstr "單個影片"
+
+#: admin/settings.php:145 admin/settings.php:743 includes/functions.php:1590
+msgid "Related Videos"
+msgstr "相關影片"
+
+#: admin/settings.php:152
+msgid "Images Settings"
+msgstr "映像設置"
+
+#: admin/settings.php:159
+msgid "Featured Images"
+msgstr "精選圖片"
+
+#: admin/settings.php:166
+msgid "Likes / Dislikes"
+msgstr "喜歡/不喜歡"
+
+#: admin/settings.php:173
+msgid "Pagination Settings"
+msgstr "分頁設定"
+
+#: admin/settings.php:180 admin/settings.php:351 admin/settings.php:744
+#: blocks/blocks.php:131 includes/functions.php:1482
+#: widgets/forms/video.php:191
+msgid "Share Buttons"
+msgstr "1和分享按鈕"
+
+#: admin/settings.php:187
+msgid "Custom Permalink Slugs"
+msgstr "自定義永久鏈接別名"
+
+#: admin/settings.php:188
+msgid ""
+"NOTE: Just make sure that, after updating the fields in this section, you "
+"flush the rewrite rules by visiting \"Settings > Permalinks\". Otherwise "
+"you'll still see the old links."
+msgstr ""
+"注意：只需確保在更新本節中的字段後，通過訪問“設置>永久鏈接”刷新重寫規則。否"
+"則，你仍會看到舊連結。"
+
+#: admin/settings.php:195
+msgid ""
+"These options will help with privacy restrictions such as GDPR and the EU "
+"Cookie Law."
+msgstr "這些選項將有助於解決隱私限制，例如GDPR和歐盟Cookie法。"
+
+#: admin/settings.php:201
+msgid "Misc Settings"
+msgstr "其他設置"
+
+#: admin/settings.php:208
+msgid "API Keys"
+msgstr "由 Simplify 账号里的: Settings -> API Keys 取得您的 API 密钥"
+
+#: admin/settings.php:215
+msgid "Page Settings"
+msgstr "登出頁面設置"
+
+#: admin/settings.php:225
+msgid "Logo & Branding"
+msgstr "標誌與品牌"
+
+#: admin/settings.php:248
+msgid "Player Library"
+msgstr "玩家庫"
+
+#: admin/settings.php:251
+msgid "Vidstack Player"
+msgstr "Vidstack播放器"
+
+#: admin/settings.php:252
+msgid ""
+"We are very much impressed by this player library which will be used as a "
+"default player when their stable release comes out. We confirm that you are "
+"safe to use this player in a production environment at the moment but "
+"<strong>the current player skin is subject to change</strong>."
+msgstr ""
+"這個玩家庫給我們留下了深刻的印象，當他們的穩定版本發布時，它將作為默認玩家使"
+"用。我們確認您目前可以安全地在生產環境中使用此玩家，但<strong>當前玩家的皮膚"
+"可能會發生變化</strong>。"
+
+#: admin/settings.php:256
+msgid "Video.js"
+msgstr "Video.js"
+
+#: admin/settings.php:257
+msgid "Vidstack (Plyr)"
+msgstr "Vidstack (Plyr)"
+
+#: admin/settings.php:263 blocks/blocks.php:110 includes/functions.php:1365
+#: premium/widgets/forms/companion.php:17 widgets/forms/video.php:75
+msgid "Width"
+msgstr "宽"
+
+#: admin/settings.php:264 blocks/blocks.php:111 includes/functions.php:1366
+#, no-php-format
+msgid ""
+"In pixels. Maximum width of the player. Leave this field empty to scale 100% "
+"of its enclosing container/html element."
+msgstr ""
+"以像素為單位。播放器的最大寬度。將此欄位留空以縮放其封閉容器/html元素的100 % "
+"o。"
+
+#: admin/settings.php:270 blocks/blocks.php:112 includes/functions.php:1372
+#: includes/functions.php:1602 includes/functions.php:1817
+#: widgets/forms/video.php:80
+msgid "Height (Ratio)"
+msgstr "高度（比率）"
+
+#: admin/settings.php:273 blocks/blocks.php:113 includes/functions.php:1373
+msgid ""
+"In percentage. 1 to 100. Calculate player's height using the ratio value "
+"entered."
+msgstr "以百分比表示。1比100。使用輸入的比率值計算玩家的身高。"
+
+#: admin/settings.php:274
+msgid "Examples"
+msgstr "范例"
+
+#: admin/settings.php:275
+msgid "Wide Screen TV"
+msgstr "寬屏螢幕"
+
+#: admin/settings.php:276
+msgid "Monitor Screens"
+msgstr "監視器螢幕"
+
+#: admin/settings.php:277
+msgid "Classic TV"
+msgstr "經典電視"
+
+#: admin/settings.php:278
+msgid "Photo Camera"
+msgstr "相機"
+
+#: admin/settings.php:279
+msgid "Square"
+msgstr "方格"
+
+#: admin/settings.php:280
+msgid "Cinemascope"
+msgstr "寬螢幕電影鏡頭"
+
+#: admin/settings.php:287 blocks/blocks.php:114 includes/functions.php:1379
+#: widgets/forms/video.php:87
+msgid "Autoplay"
+msgstr "聊天自動播放"
+
+#: admin/settings.php:288
+msgid "Check this to start playing the video as soon as it is ready"
+msgstr "勾選此選項，即可在影片準備就緒後立即開始播放"
+
+#: admin/settings.php:294 blocks/blocks.php:115 includes/functions.php:1386
+#: widgets/forms/video.php:94
+msgid "Loop"
+msgstr "循環 Slide 暫停"
+
+#: admin/settings.php:295
+msgid ""
+"Check this, so that the video will start over again, every time it is "
+"finished"
+msgstr "檢查此選項，以便每次完成時，影片都會重新開始"
+
+#: admin/settings.php:301 blocks/blocks.php:116 includes/functions.php:1393
+#: widgets/forms/video.php:101
+msgid "Muted"
+msgstr "靜音"
+
+#: admin/settings.php:302
+msgid "Check this to turn OFF the audio output of the video by default"
+msgstr "勾選此選項可預設關閉影片的音訊輸出"
+
+#: admin/settings.php:308
+msgid "Preload"
+msgstr "預載"
+
+#: admin/settings.php:311
+msgid "Specifies if and how the video should be loaded when the page loads."
+msgstr "指定頁面載入時是否以及如何載入影片。"
+
+#: admin/settings.php:312
+msgid "\"Auto\" - The video should be loaded entirely when the page loads"
+msgstr "「自動」-頁面載入時應完全載入影片"
+
+#: admin/settings.php:313
+msgid "\"Metadata\" - Only metadata should be loaded when the page loads"
+msgstr "•「Meta資料」：頁面載入時僅載入Meta資料。"
+
+#: admin/settings.php:314
+msgid "\"None\" - The video should not be loaded when the page loads"
+msgstr "「無」-頁面載入時不應載入影片"
+
+#: admin/settings.php:318
+msgid "Auto"
+msgstr "自动"
+
+#: admin/settings.php:319
+msgid "Metadata"
+msgstr "詮釋資料"
+
+#: admin/settings.php:326
+msgid "Playsinline"
+msgstr "Playsinline"
+
+#: admin/settings.php:327
+msgid ""
+"Check this to play videos inline on mobile devices instead of automatically "
+"going into fullscreen mode"
+msgstr ""
+"勾選此選項，即可在行動裝置上以內嵌方式播放影片，而不會自動進入全螢幕模式"
+
+#: admin/settings.php:333 blocks/blocks.php:121 includes/functions.php:1401
+#: widgets/forms/video.php:107
+msgid "Player Controls"
+msgstr "播放控制"
+
+#: admin/settings.php:335 admin/settings.php:733
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to configure your share buttons."
+msgstr "<a href=\"%s\">按一下此處</a>即可設定分享按鈕。"
+
+#: admin/settings.php:340 blocks/blocks.php:122 includes/functions.php:1405
+#: widgets/forms/video.php:114
+msgid "Play / Pause"
+msgstr "播放/暫停"
+
+#: admin/settings.php:341 blocks/blocks.php:123 includes/functions.php:1412
+#: premium/admin/user.php:301 premium/admin/user.php:331
+#: widgets/forms/video.php:121
+msgid "Current Time"
+msgstr "目前時間"
+
+#: admin/settings.php:342 blocks/blocks.php:124 includes/functions.php:1419
+#: widgets/forms/video.php:128
+msgid "Progressbar"
+msgstr "進度條"
+
+#: admin/settings.php:343 blocks/blocks.php:125 includes/functions.php:1426
+#: premium/includes/vimeo-api/resource-objects.php:148
+#: widgets/forms/video.php:135
+msgid "Duration"
+msgstr "期間"
+
+#: admin/settings.php:344 admin/videos.php:189 includes/functions.php:1433
+#: widgets/forms/video.php:142
+msgid "Subtitles"
+msgstr "字幕"
+
+#: admin/settings.php:345 admin/videos.php:198 includes/functions.php:1440
+#: widgets/forms/video.php:149
+msgid "Chapters"
+msgstr "章節"
+
+#: admin/settings.php:346 blocks/blocks.php:126 includes/functions.php:1447
+#: widgets/forms/video.php:156
+msgid "Speed Control"
+msgstr "2 段速度控制"
+
+#: admin/settings.php:347 blocks/blocks.php:127 includes/functions.php:1454
+#: widgets/forms/video.php:163
+msgid "Quality Selector"
+msgstr "品質選擇器"
+
+#: admin/settings.php:348 blocks/blocks.php:128 includes/functions.php:1461
+#: widgets/forms/video.php:170
+msgid "Volume Button"
+msgstr "[音量] 按鈕"
+
+#: admin/settings.php:349 blocks/blocks.php:129 includes/functions.php:1468
+#: widgets/forms/video.php:177
+msgid "Picture-in-Picture Button"
+msgstr "畫中畫按鈕"
+
+#: admin/settings.php:350 blocks/blocks.php:130 includes/functions.php:1475
+#: widgets/forms/video.php:184
+msgid "Fullscreen Button"
+msgstr "全螢幕按鈕"
+
+#: admin/settings.php:352 blocks/blocks.php:132 includes/functions.php:1489
+#: widgets/forms/video.php:198
+msgid "Embed Button"
+msgstr "嵌入按鈕"
+
+#: admin/settings.php:353 blocks/blocks.php:133 includes/functions.php:1496
+#: widgets/forms/video.php:205
+msgid "Download Button"
+msgstr "下載按鈕"
+
+#: admin/settings.php:359
+msgid "Keyboard Hotkeys"
+msgstr "鍵盤熱鍵"
+
+#: admin/settings.php:362
+msgid "Check this option to enable keyboard shortcuts to control the player."
+msgstr "選中此選項可啟用鍵盤快捷鍵來控制播放器。"
+
+#: admin/settings.php:363
+msgid "\"Spacebar\" - Toggles between Play and Pause."
+msgstr "「空格鍵」-在播放和暫停之間切換。"
+
+#: admin/settings.php:364
+msgid "\"Left Arrow\" - Rewinds the video."
+msgstr "「左箭頭」-倒回影片。"
+
+#: admin/settings.php:365
+msgid "\"Right Arrow\" - Forwards the video."
+msgstr "「向右箭頭」-轉寄影片。"
+
+#: admin/settings.php:366
+msgid "\"Up Arrow\" - Increases the volume."
+msgstr "「向上箭頭」-增加音量。"
+
+#: admin/settings.php:367
+msgid "\"Down Arrow\" - Lowers the volume."
+msgstr "「向下箭頭」-降低音量。"
+
+#: admin/settings.php:368
+msgid "\"F Key\" - Toggles fullscreen mode."
+msgstr "「F鍵」-切換全螢幕模式。"
+
+#: admin/settings.php:369
+msgid "\"M Key\" - Toggles audio mute."
+msgstr "「M鍵」-切換音訊靜音。"
+
+#: admin/settings.php:376
+msgid "Automatically Show Subtitles"
+msgstr "自動顯示字幕"
+
+#: admin/settings.php:377
+msgid ""
+"Check this option to automatically show subtitles on the player if available."
+msgstr "選中此選項可自動在播放器上顯示字幕（如果可用）。"
+
+#: admin/settings.php:383
+msgid "Quality Levels"
+msgstr "品質等級"
+
+#: admin/settings.php:384
+msgid ""
+"Enter the video quality levels, one per line.<br />Valid options are \"4320p"
+"\", \"2880p\", \"2160p\", \"1440p\", \"1080p\", \"720p\", \"576p\", \"480p"
+"\", \"360p\", and \"240p\"."
+msgstr ""
+"輸入影片品質等級，每行一個。<br />有效選項為「4320p」、「2880p」、「2160p」、"
+"「1440p」、「1080p」、「720p」、「576p」、「480p」、「360p」和「240p」。"
+
+#: admin/settings.php:390
+msgid "Use Native Controls"
+msgstr "使用原生控件"
+
+#: admin/settings.php:391
+msgid ""
+"Enables native player controls on the selected source types. For example, "
+"uses YouTube Player for playing YouTube videos & Vimeo Player for playing "
+"Vimeo videos. Note that none of our custom player features will work on the "
+"selected sources."
+msgstr ""
+"在所選來源類型上啟用原生播放器控制。例如，使用YouTube播放器播放YouTube影片，"
+"使用Vimeo播放器播放Vimeo影片。請注意，我們的自訂播放器功能無法在所選來源上運"
+"作。"
+
+#: admin/settings.php:394 includes/functions.php:1323
+#: includes/functions.php:2068 premium/includes/functions.php:130
+msgid "YouTube"
+msgstr "Youtube"
+
+#: admin/settings.php:395 includes/functions.php:1330
+#: includes/functions.php:2069 premium/includes/functions.php:131
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: admin/settings.php:401
+msgid "Force JavaScript Based Initialization"
+msgstr "強制基於JavaScript的初始化"
+
+#: admin/settings.php:402
+msgid ""
+"By default, the plugin adds the player as an iframe to avoid conflicts with "
+"other javascript-based libraries on your website. Check this option to force "
+"the standard javascript-based player initialization if you are not a fan of "
+"the iframes."
+msgstr ""
+"根據預設，外掛程式會將播放器新增為iframe ，以避免與您網站上其他基於javascript"
+"的庫發生衝突。如果您不是iframe的粉絲，請選中此選項以強制標準的基於javascript"
+"的播放器初始化。"
+
+#: admin/settings.php:408
+msgid "Lazyload Videos"
+msgstr "延遲載入影片"
+
+#: admin/settings.php:409
+msgid ""
+"This is an experimental feature and currently works only with the javascript-"
+"based initialization for the Vidstack or the embeddable players."
+msgstr ""
+"這是一項實驗性功能，目前僅適用於Vidstack或可嵌入播放器的基於javascript的初始"
+"化。"
+
+#: admin/settings.php:417
+msgid "Image Width"
+msgstr "作品寬度"
+
+#: admin/settings.php:418
+#, no-php-format
+msgid "Always 100% of its enclosing container/html element."
+msgstr "始終100 % o其封閉容器/html元素。"
+
+#: admin/settings.php:424
+msgid "Image Height (Ratio)"
+msgstr "影像高度（比率）"
+
+#: admin/settings.php:425
+msgid ""
+"In percentage. 1 to 100. Calculate images's height using the ratio value "
+"entered."
+msgstr "以百分比表示。1比100。使用輸入的比率值計算影像的高度。"
+
+#: admin/settings.php:431
+msgid "Image File Size"
+msgstr "影像檔"
+
+#: admin/settings.php:432
+msgid ""
+"Those previous options control how the images are displayed on the front-end "
+"gallery pages. Whereas this option controls which image file size to load."
+msgstr ""
+"這些先前的選項控制影像在前端圖庫頁面上的顯示方式。而此選項控制要載入的影像檔"
+"大小。"
+
+#: admin/settings.php:433
+msgid ""
+"Whenever you upload an image, WordPress automatically creates 4 different "
+"image sizes. WordPress does this, so you don't have to keep resizing images "
+"manually and to ensure the best image size is selected for different "
+"locations on your website. Select \"Thumbnail\" for the small file size, so "
+"your gallery loads fast. Select \"Large\" if the image quality is important "
+"to your website."
+msgstr ""
+
+#: admin/settings.php:436
+msgid "Thumbnail"
+msgstr "缩图"
+
+#: admin/settings.php:437
+msgid "Medium"
+msgstr "适中"
+
+#: admin/settings.php:438
+msgid "Large"
+msgstr "大型尺寸"
+
+#: admin/settings.php:439
+msgid "Full Size"
+msgstr "完整尺寸"
+
+#: admin/settings.php:447 admin/settings.php:493
+msgid "Enable / Disable"
+msgstr "啓用/停用"
+
+#: admin/settings.php:448
+msgid "Check this option to enable featured images."
+msgstr "勾選此選項可啟用特色圖片。"
+
+#: admin/settings.php:454
+msgid "Download External Images"
+msgstr "下載外部影像"
+
+#: admin/settings.php:455
+msgid ""
+"WordPress requires featured images to be stored locally as attachments. But, "
+"when you add videos from YouTube, Vimeo, Dailymotion & Rumble websites, we "
+"simply link the image URLs from their server. Check this option to download "
+"the images from such external websites to your server and to link them as "
+"featured."
+msgstr ""
+"WordPress要求特色圖片以附件的形式儲存於本機。但是，當您從YouTube、Vimeo、"
+"Dailymotion和Rumble網站新增影片時，我們只需從其伺服器連結圖片網址即可。選中此"
+"選項可將圖像從此類外部網站下載到您的伺服器，並將其連結為精選圖片。"
+
+#: admin/settings.php:461
+msgid "Hide on Single Video Pages"
+msgstr "在單個視頻頁面上隱藏"
+
+#: admin/settings.php:462
+msgid ""
+"Some themes display the featured image above the player on our single video "
+"pages. Check this option if you want to hide this."
+msgstr ""
+"部分佈景主題會在單一影片頁面播放器上方顯示精選圖片。如果要隱藏此選項，請勾選"
+"此選項。"
+
+#: admin/settings.php:470
+msgid "Like Button"
+msgstr "喜歡按鈕"
+
+#: admin/settings.php:471
+msgid "Check this option to enable the like button"
+msgstr "勾選此選項以啟用點讚按鈕"
+
+#: admin/settings.php:477
+msgid "Dislike Button"
+msgstr "不喜歡"
+
+#: admin/settings.php:478
+msgid "Check this option to enable the dislike button"
+msgstr "勾選此選項以啟用不喜歡按鈕"
+
+#: admin/settings.php:484
+msgid "Login Required to Vote"
+msgstr "需要登錄才能投票"
+
+#: admin/settings.php:485
+msgid "Check this option to require login to like or dislike"
+msgstr "勾選此選項，需要登入才能按讚或不按讚"
+
+#: admin/settings.php:497 includes/functions.php:1351
+#: includes/functions.php:2072 includes/functions.php:2817
+#: includes/player/base.php:502 public/templates/player-videojs.php:339
+#: public/templates/player-vidstack.php:427
+msgid "Facebook"
+msgstr "允許Facebook社交連接"
+
+#: admin/settings.php:498 includes/functions.php:2825
+#: includes/player/base.php:511 public/templates/player-videojs.php:348
+#: public/templates/player-vidstack.php:436
+msgid "Twitter"
+msgstr "允許Twitter社交連接"
+
+#: admin/settings.php:499 includes/functions.php:2833
+#: includes/player/base.php:520 public/templates/player-videojs.php:357
+#: public/templates/player-vidstack.php:445
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: admin/settings.php:500 includes/player/base.php:535
+#: public/templates/player-videojs.php:372
+#: public/templates/player-vidstack.php:460
+msgid "Pinterest"
+msgstr "Pinterest (網站瀑布流佈局)"
+
+#: admin/settings.php:501 includes/functions.php:2860
+#: includes/player/base.php:555 public/templates/player-videojs.php:392
+#: public/templates/player-vidstack.php:480
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: admin/settings.php:502 includes/functions.php:2874
+#: includes/player/base.php:570 public/templates/player-videojs.php:407
+#: public/templates/player-vidstack.php:495
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: admin/settings.php:508
+msgid "Open Graph Tags"
+msgstr "打開圖形Meta標記"
+
+#: admin/settings.php:509
+msgid ""
+"Check this option to enable Facebook Open Graph meta tags and Twitter cards "
+"on the single video pages"
+msgstr "選中此選項可在單個視頻頁面上啟用Facebook Open Graph元標籤和Twitter卡片"
+
+#: admin/settings.php:515
+msgid "Twitter Username"
+msgstr "Twitter 用戶名"
+
+#: admin/settings.php:516
+msgid ""
+"The Twitter @username the player card should be attributed to. Required for "
+"sharing videos in Twitter."
+msgstr "玩家卡片應歸屬的Twitter @ username。需要在Twitter上分享影片。"
+
+#: admin/settings.php:525 admin/settings.php:624 blocks/blocks.php:74
+#: includes/functions.php:1520 includes/functions.php:1783
+#: includes/functions.php:1914 widgets/forms/categories.php:21
+#: widgets/forms/search.php:21
+msgid "Select Template"
+msgstr "選擇範本"
+
+#: admin/settings.php:526 includes/functions.php:1521
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Upgrade Pro</a> for more templates (Popup, "
+"Slider, Playlist, Compact, etc.)"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">升級Pro</a>以獲得更多模板（彈出窗口，滑塊，"
+"播放列表，緊湊等）"
+
+#: admin/settings.php:533 admin/settings.php:636 admin/settings.php:765
+#: blocks/blocks.php:78 includes/functions.php:1609 includes/functions.php:1824
+#: widgets/forms/categories.php:62
+msgid "Columns"
+msgstr "两列"
+
+#: admin/settings.php:534
+msgid "Enter the number of columns you like to have in the gallery view."
+msgstr "在圖庫檢視中輸入您想要的欄數。"
+
+#: admin/settings.php:543 admin/settings.php:646 admin/settings.php:775
+#: blocks/blocks.php:79 includes/functions.php:1619 includes/functions.php:1834
+#: widgets/forms/categories.php:67
+msgid "Limit (per page)"
+msgstr "限制（每頁）"
+
+#: admin/settings.php:544 admin/settings.php:776
+msgid ""
+"Number of videos to show per page. Use a value of \"0\" to show all videos."
+msgstr "每頁顯示的影片數量。使用值「0」顯示所有影片。"
+
+#: admin/settings.php:550 admin/settings.php:653 admin/settings.php:782
+#: blocks/blocks.php:80 includes/functions.php:1556 includes/functions.php:1844
+#: premium/admin/partials/automations-sources.php:183
+#: widgets/forms/categories.php:72
+msgid "Order By"
+msgstr "排序按"
+
+#: admin/settings.php:554 admin/settings.php:786 includes/functions.php:1513
+#: includes/functions.php:1560 includes/functions.php:1776
+#: premium/admin/partials/automations-sources.php:196
+#: widgets/forms/categories.php:16 widgets/forms/search.php:16
+#: widgets/forms/video.php:18
+msgid "Title"
+msgstr "主题"
+
+#: admin/settings.php:555 admin/settings.php:596 admin/settings.php:740
+#: admin/settings.php:787 includes/functions.php:1561
+#: includes/functions.php:1675
+msgid "Date Added"
+msgstr "添加日期"
+
+#: admin/settings.php:559 admin/settings.php:791 includes/functions.php:1565
+msgid "Random"
+msgstr "隨機"
+
+#: admin/settings.php:560 admin/settings.php:661 admin/settings.php:792
+#: blocks/blocks.php:85 includes/functions.php:1566 includes/functions.php:1852
+#: widgets/forms/categories.php:80
+msgid "Menu Order"
+msgstr "選單順序"
+
+#: admin/settings.php:566 admin/settings.php:667 admin/settings.php:798
+#: blocks/blocks.php:86 includes/functions.php:1572 includes/functions.php:1858
+#: widgets/forms/categories.php:96
+msgid "Order"
+msgstr "排序按"
+
+#: admin/settings.php:570 admin/settings.php:671 admin/settings.php:802
+msgid "Ascending"
+msgstr "昇冪"
+
+#: admin/settings.php:571 admin/settings.php:672 admin/settings.php:803
+msgid "Descending"
+msgstr "降冪"
+
+#: admin/settings.php:577 includes/functions.php:1629
+msgid "Image Position"
+msgstr "圖片位置"
+
+#: admin/settings.php:581 includes/functions.php:1633
+msgid "Top"
+msgstr "列出最熱銷商品."
+
+#: admin/settings.php:582 includes/functions.php:1634
+msgid "Left"
+msgstr "左邊"
+
+#: admin/settings.php:588 includes/functions.php:1640
+msgid "Show / Hide (Thumbnails)"
+msgstr "顯示 / 隱藏縮圖"
+
+#: admin/settings.php:592 includes/functions.php:1647
+msgid "Videos Count"
+msgstr "顯示視頻計數"
+
+#: admin/settings.php:593 includes/functions.php:1654
+#: premium/admin/partials/automations-video-settings.php:19
+#: premium/admin/slider.php:61 premium/public/slider.php:89
+#: premium/public/templates/video-form.php:40
+msgid "Video Title"
+msgstr "影片標題"
+
+#: admin/settings.php:594 admin/settings.php:738 includes/functions.php:1661
+msgid "Category Name(s)"
+msgstr "類別名稱"
+
+#: admin/settings.php:595 admin/settings.php:739 includes/functions.php:1668
+msgid "Tag Name(s)"
+msgstr "標籤名稱"
+
+#: admin/settings.php:597 admin/settings.php:741 includes/functions.php:1682
+msgid "Author Name"
+msgstr "作者名稱"
+
+#: admin/settings.php:602 includes/functions.php:1717
+msgid "Video Excerpt (Short Description)"
+msgstr "影片摘要（簡短描述）"
+
+#: admin/settings.php:608 includes/functions.php:1724
+msgid "Title Length"
+msgstr "標題字元長度"
+
+#: admin/settings.php:609 admin/settings.php:616
+msgid "Number of characters."
+msgstr "允許的字元數"
+
+#: admin/settings.php:615 includes/functions.php:1731
+msgid "Excerpt Length"
+msgstr "摘要長度"
+
+#: admin/settings.php:628 blocks/blocks.php:75 includes/functions.php:1787
+#: widgets/forms/categories.php:25
+msgid "Grid"
+msgstr "桌面網格寬度"
+
+#: admin/settings.php:629 blocks/blocks.php:76 includes/functions.php:1788
+#: widgets/forms/categories.php:26
+msgid "List"
+msgstr "新增订阅名单"
+
+#: admin/settings.php:630 blocks/blocks.php:77 includes/functions.php:1789
+#: widgets/forms/categories.php:27
+msgid "Dropdown"
+msgstr "下拉"
+
+#: admin/settings.php:637
+msgid "Enter the number of columns you like to have in your categories page."
+msgstr "輸入你想在類別頁面上顯示的欄數。"
+
+#: admin/settings.php:647
+msgid ""
+"Number of categories to show per page. Use a value of \"0\" to show all "
+"categories."
+msgstr "每頁顯示的類別數量。使用值「0」顯示所有類別。"
+
+#: admin/settings.php:658 blocks/blocks.php:82 includes/functions.php:1849
+#: widgets/forms/categories.php:77
+msgid "Count"
+msgstr "計數"
+
+#: admin/settings.php:659 blocks/blocks.php:83 includes/functions.php:1850
+#: widgets/forms/categories.php:78
+msgid "Name"
+msgstr "名稱"
+
+#: admin/settings.php:660 blocks/blocks.php:84 includes/functions.php:1851
+#: widgets/forms/categories.php:79
+msgid "Slug"
+msgstr "網址編號"
+
+#: admin/settings.php:678 blocks/blocks.php:89 includes/functions.php:1869
+#: widgets/forms/categories.php:119
+msgid "Show Hierarchy"
+msgstr "顯示階層"
+
+#: admin/settings.php:679
+msgid "Check this to show the child categories"
+msgstr "勾選此選項以顯示子類別"
+
+#: admin/settings.php:685 blocks/blocks.php:90 includes/functions.php:1876
+#: widgets/forms/categories.php:126
+msgid "Show Description"
+msgstr "顯示描述"
+
+#: admin/settings.php:686
+msgid "Check this to show the categories description"
+msgstr "勾選此選項可顯示類別描述"
+
+#: admin/settings.php:692 blocks/blocks.php:91 includes/functions.php:1883
+#: widgets/forms/categories.php:133
+msgid "Show Videos Count"
+msgstr "顯示視頻計數"
+
+#: admin/settings.php:693
+msgid "Check this to show the videos count next to the category name"
+msgstr "勾選此選項，即可在類別名稱旁顯示影片數量"
+
+#: admin/settings.php:699 blocks/blocks.php:92 includes/functions.php:1890
+#: widgets/forms/categories.php:140
+msgid "Hide Empty Categories"
+msgstr "隱藏空白分類"
+
+#: admin/settings.php:700
+msgid "Check this to hide categories with no videos"
+msgstr "勾選此選項可隱藏沒有影片的類別"
+
+#: admin/settings.php:706
+msgid "Link to Parent Category"
+msgstr "連結到上層類別"
+
+#: admin/settings.php:707
+msgid ""
+"Add a link to the parent category page on the single category pages. When "
+"there is no parent, links to the \"All Categories\" page."
+msgstr ""
+"在單一類別頁面上新增上層類別頁面的連結。如果沒有上層，則會連結到「所有類別」"
+"頁面。"
+
+#: admin/settings.php:715
+msgid "Ajax"
+msgstr "AJAX"
+
+#: admin/settings.php:716
+msgid "Check this to enable Pagination with Ajax"
+msgstr "勾選此選項以啟用AJAX分頁"
+
+#: admin/settings.php:722
+msgid "Page Range"
+msgstr "頁面範圍"
+
+#: admin/settings.php:723
+msgid ""
+"Enter how many page numbers to show either side of the current page in the "
+"pagination links. Default 2."
+msgstr "輸入要在分頁連結中顯示當前頁面兩側的頁碼數量。預設值2."
+
+#: admin/settings.php:731 admin/settings.php:809
+msgid "Show / Hide"
+msgstr "显示/隐藏二维码"
+
+#: admin/settings.php:750 premium/includes/vimeo-api/resource-objects.php:172
+msgid "Comments"
+msgstr "評論"
+
+#: admin/settings.php:754
+msgid "Enable comments (can be overridden per video)"
+msgstr "啟用評論（可以根據影片覆蓋）"
+
+#: admin/settings.php:755
+msgid "Forcefully enable comments on all the video pages"
+msgstr "強制啟用所有影片頁面的評論"
+
+#: admin/settings.php:756
+msgid "Disable comments (can be overridden per video)"
+msgstr "停用留言（可根據影片覆寫）"
+
+#: admin/settings.php:757
+msgid "Forcefully disable comments on all the video pages"
+msgstr "強制停用所有影片頁面的評論"
+
+#: admin/settings.php:766
+msgid ""
+"Enter the number of columns you like to have in the related videos section."
+msgstr "在相關影片部分輸入您想要的欄位數。"
+
+#: admin/settings.php:813 includes/functions.php:1738
+msgid "Pagination"
+msgstr "分页列"
+
+#: admin/settings.php:821
+msgid "Video Detail Page"
+msgstr "影片詳細資訊頁面"
+
+#: admin/settings.php:822
+msgid "Replaces the SLUG value used by custom post type \"aiovg_videos\"."
+msgstr "替換自定義帖子類型“aiovg_videos”使用的SLUG值。"
+
+#: admin/settings.php:830
+msgid "Cookie Consent"
+msgstr "Cookie同意"
+
+#: admin/settings.php:831
+msgid ""
+"Ask for viewer consent before loading YouTube, Vimeo, or embedded videos "
+"from any third-party websites."
+msgstr "從任何第三方網站載入YouTube、Vimeo或內嵌影片前，請先徵得觀眾的同意。"
+
+#: admin/settings.php:837
+msgid "Consent Message"
+msgstr "同意訊息"
+
+#: admin/settings.php:844
+msgid "Consent Button Label"
+msgstr "同意按鈕標籤"
+
+#: admin/settings.php:851
+msgid "Disable Cookies from our Plugin"
+msgstr "從我們的外掛程式停用Cookie"
+
+#: admin/settings.php:855
+msgid ""
+"<strong>aiovg_videos_views</strong>: Required for unique views calculation. "
+"Disabling this option would count each view by the user. So, when a user "
+"watches the same video 10 times, the views count will also increase by 10 "
+"for that video. But, under the unique views, the views count is calculated "
+"only once per user for a video."
+msgstr ""
+"<strong>aiovg_videos_views</strong> ：計算不重複觀看次數時必須填寫。停用此選"
+"項將計算用戶的每個視圖。因此，當用戶觀看同一部影片10次時，該影片的觀看次數也"
+"會增加10次。但在不重複觀看次數下，每位使用者的影片觀看次數只會計算一次。"
+
+#: admin/settings.php:856
+msgid ""
+"<strong>aiovg_rand_seed</strong>: Required if you show videos in a random "
+"order with the pagination on any of your pages."
+msgstr ""
+"<strong>aiovg_rand_seed</strong> ：如果您在任何頁面上以隨機順序顯示帶有分頁的"
+"影片，則為必填。"
+
+#: admin/settings.php:864
+msgid "DateTime Format"
+msgstr "日期時間格式"
+
+#: admin/settings.php:867
+msgid ""
+"Enter the PHP DateTime format that the plugin should use when displaying the "
+"dates on the site's front end."
+msgstr "輸入外掛程式在網站前端顯示日期時應使用的PHP DateTime格式。"
+
+#: admin/settings.php:868
+msgid "Documentation on date and time formatting."
+msgstr "日期和時間格式的文檔"
+
+#: admin/settings.php:869
+msgid ""
+"When left empty, the plugin will display a human-readable format such as \"1 "
+"hour ago\", \"5 mins ago\", and \"2 days ago\"."
+msgstr ""
+"當留空時，插件將顯示人類可讀的格式，例如“1小時前” ， “5分鐘前”和“2天前”。"
+
+#: admin/settings.php:877
+msgid "Auto Flush Rewrite Rules"
+msgstr "自動刷新重寫規則"
+
+#: admin/settings.php:878
+msgid ""
+"Check this box to automatically detect and insert the missing permalink "
+"rules. Rarely, this option can cause issues in some WordPress environments. "
+"Kindly disable this option If you find a frequent 404 or 500 error on your "
+"website."
+msgstr ""
+"選中此框可自動檢測並插入缺少的永久鏈接規則。在極少數情況下，此選項可能會在某"
+"些WordPress環境中造成問題。如果您在網站上發現頻繁的404或500錯誤，請禁用此選"
+"項。"
+
+#: admin/settings.php:884
+msgid "Remove data on uninstall?"
+msgstr "刪除外掛時刪除數據？"
+
+#: admin/settings.php:885
+msgid ""
+"Check this box to delete all of the plugin data (database stored content) "
+"when uninstalled"
+msgstr "選中此框以在卸載時刪除所有插件數據（數據庫存儲的內容）"
+
+#: admin/settings.php:891
+msgid "Delete media files?"
+msgstr "刪除媒體檔案？"
+
+#: admin/settings.php:892
+msgid ""
+"Check this box to also delete the associated media files when a video post "
+"or a video category is deleted"
+msgstr "勾選此方塊，也可以在刪除影片文章或影片類別時刪除關聯的媒體檔案"
+
+#: admin/settings.php:900
+msgid "YouTube API Key"
+msgstr "YouTube API密鑰"
+
+#: admin/settings.php:901 premium/includes/youtube-api/youtube-api.php:60
+#, php-format
+msgid ""
+"Follow <a href=\"%s\" target=\"_blank\">this guide</a> to get your own API "
+"key."
+msgstr "按照<a href=\"%s\" target=\"_blank\">本指南</a>獲取您自己的API金鑰。"
+
+#: admin/settings.php:907
+msgid "Vimeo Access Token"
+msgstr "Vimeo 訪問令牌"
+
+#: admin/settings.php:908 premium/includes/vimeo-api/query.php:270
+#, php-format
+msgid ""
+"Follow <a href=\"%s\" target=\"_blank\">this guide</a> to get your own "
+"access token."
+msgstr "按照<a href=\"%s\" target=\"_blank\">本指南</a>獲取您自己的存取權杖。"
+
+#: admin/settings.php:916
+msgid "Single Category Page"
+msgstr "單一分類"
+
+#: admin/settings.php:917
+msgid ""
+"This is the page where the videos from a particular category is displayed. "
+"The [aiovg_category] short code must be on this page."
+msgstr "這是顯示特定類別影片的頁面。[aiovg_category]短代碼必須在此頁面上。"
+
+#: admin/settings.php:923
+msgid "Single Tag Page"
+msgstr "單一標籤"
+
+#: admin/settings.php:924
+msgid ""
+"This is the page where the videos from a particular tag is displayed. The "
+"[aiovg_tag] short code must be on this page."
+msgstr "這是顯示特定標籤影片的頁面。[aiovg_tag]短代碼必須在此頁面上。"
+
+#: admin/settings.php:930
+msgid "Search Page"
+msgstr "搜尋頁面"
+
+#: admin/settings.php:931
+msgid ""
+"This is the page where the search results are displayed. The [aiovg_search] "
+"short code must be on this page."
+msgstr "這是顯示搜尋結果的頁面。[aiovg_search]短代碼必須在此頁面上。"
+
+#: admin/settings.php:938
+msgid ""
+"This is the page where the videos from an user is displayed. The "
+"[aiovg_user_videos] short code must be on this page."
+msgstr "這是顯示用戶影片的頁面。[aiovg_user_videos]短代碼必須在此頁面上。"
+
+#: admin/settings.php:945
+msgid "This is the page used to show the video player."
+msgstr "這是用於顯示影片播放器的頁面。"
+
+#: admin/settings.php:956
+msgid "Show Logo"
+msgstr "顯示徽標"
+
+#: admin/settings.php:957
+msgid "Check this option to show the watermark on the video."
+msgstr "勾選此選項可在影片上顯示浮水印。"
+
+#: admin/settings.php:963
+msgid "Logo Image"
+msgstr "標識圖像"
+
+#: admin/settings.php:964
+msgid ""
+"Upload the image file of your logo. We recommend using the transparent PNG "
+"format with width below 100 pixels. If you do not enter any image, no logo "
+"will displayed."
+msgstr ""
+"上傳標誌的圖片檔案。我們建議使用寬度小於100像素的透明PNG格式。如果您未輸入任"
+"何圖片，則不會顯示任何標誌。"
+
+#: admin/settings.php:970
+msgid "Logo Link"
+msgstr "logo連結"
+
+#: admin/settings.php:971
+msgid ""
+"The URL to visit when the watermark image is clicked. Clicking a logo will "
+"have no affect unless this is configured."
+msgstr ""
+"單擊水印圖像時要訪問的URL。除非進行設定，否則點擊標誌不會產生任何影響。"
+
+#: admin/settings.php:977
+msgid "Logo Position"
+msgstr "Logo位置"
+
+#: admin/settings.php:978
+msgid "This sets the corner in which to display the watermark."
+msgstr "這會設置要顯示水印的角落。"
+
+#: admin/settings.php:981
+msgid "Top Left"
+msgstr "左上"
+
+#: admin/settings.php:982
+msgid "Top Right"
+msgstr "右上"
+
+#: admin/settings.php:983
+msgid "Bottom Left"
+msgstr "左下方"
+
+#: admin/settings.php:984
+msgid "Bottom Right"
+msgstr "右下方"
+
+#: admin/settings.php:990
+msgid "Logo Margin"
+msgstr "徽標邊緣頂部"
+
+#: admin/settings.php:991
+msgid "The distance, in pixels, of the logo from the edges of the display."
+msgstr "標誌與顯示器邊緣的距離（以像素為單位）。"
+
+#: admin/settings.php:997
+msgid "Copyright Text"
+msgstr "版權所有文字"
+
+#: admin/settings.php:998
+msgid "Text that is shown when a user right-clicks the player with the mouse."
+msgstr "用戶用滑鼠右鍵點擊播放器時顯示的文字。"
+
+#: admin/settings.php:1274
+msgid "Choose File"
+msgstr "選擇檔案"
+
+#: admin/settings.php:1325
+msgid "Select a page"
+msgstr "選擇一個頁面"
+
+#: admin/tags.php:32
+msgid "All-in-One Video Gallery - Tags"
+msgstr "多合一影片庫-標籤"
+
+#: admin/tags.php:33 admin/tags.php:66 premium/admin/automations.php:280
+#: premium/admin/partials/automations-video-settings.php:82
+msgid "Video Tags"
+msgstr "影片標籤: "
+
+#: admin/tags.php:67
+msgid "All Tags"
+msgstr "所有標籤"
+
+#: admin/tags.php:70
+msgid "New Tag Name"
+msgstr "新标签名称"
+
+#: admin/tags.php:71
+msgid "Add New Tag"
+msgstr "新增标签"
+
+#: admin/tags.php:72
+msgid "Edit Tag"
+msgstr "編輯標籤"
+
+#: admin/tags.php:73
+msgid "Update Tag"
+msgstr "更新标签"
+
+#: admin/tags.php:74
+msgid "View Tag"
+msgstr "查看標籤"
+
+#: admin/tags.php:75
+msgid "Separate tags with commas"
+msgstr "用逗号 (comma) 区分多个标签"
+
+#: admin/tags.php:76
+msgid "Add or remove tags"
+msgstr "新增或移除標籤"
+
+#: admin/tags.php:78
+msgid "Popular Tags"
+msgstr "熱門標籤"
+
+#: admin/tags.php:79
+msgid "Search Tags"
+msgstr "搜尋標籤"
+
+#: admin/tags.php:80 includes/functions.php:1043 public/public.php:242
+#: public/public.php:311
+msgid "No tags found"
+msgstr "找不到商品標籤"
+
+#: admin/tags.php:81
+msgid "No tags"
+msgstr "商品標籤"
+
+#: admin/tags.php:82
+msgid "Tags list"
+msgstr "標籤列表"
+
+#: admin/tags.php:83
+msgid "Tags list navigation"
+msgstr "標籤列表導覽"
+
+#: admin/videos.php:32
+msgid "All-in-One Video Gallery - Videos"
+msgstr "多合一影片庫-影片"
+
+#: admin/videos.php:33 admin/videos.php:75 admin/videos.php:565
+msgid "All Videos"
+msgstr "所有影片"
+
+#: admin/videos.php:71 admin/videos.php:110 includes/functions.php:1302
+msgid "Video"
+msgstr "视频"
+
+#: admin/videos.php:72
+msgid "Video Archives"
+msgstr "影片封存"
+
+#: admin/videos.php:73
+msgid "Video Attributes"
+msgstr "影片屬性"
+
+#: admin/videos.php:74
+msgid "Parent Video:"
+msgstr "上層影片："
+
+#: admin/videos.php:76 premium/public/templates/user-dashboard.php:71
+msgid "Add New Video"
+msgstr "新增影片"
+
+#: admin/videos.php:77 premium/admin/automations.php:115
+msgid "Add New"
+msgstr "新增"
+
+#: admin/videos.php:78
+msgid "New Video"
+msgstr "新增影片"
+
+#: admin/videos.php:79 blocks/blocks.php:108
+msgid "Edit Video"
+msgstr "編輯影片"
+
+#: admin/videos.php:80
+msgid "Update Video"
+msgstr "更新視頻"
+
+#: admin/videos.php:81
+msgid "View Video"
+msgstr "瀏覽影片"
+
+#: admin/videos.php:82
+msgid "View Videos"
+msgstr "觀看視頻"
+
+#: admin/videos.php:83
+msgid "Search Video"
+msgstr "搜尋影片"
+
+#: admin/videos.php:84 includes/functions.php:1037
+#: premium/admin/partials/playlist-fields.php:59
+msgid "No videos found"
+msgstr "找不到影片"
+
+#: admin/videos.php:85
+msgid "Not found in Trash"
+msgstr "在垃圾桶中找不到"
+
+#: admin/videos.php:86 premium/admin/partials/automations-video-settings.php:48
+msgid "Featured Image"
+msgstr "特色图片"
+
+#: admin/videos.php:87
+msgid "Set featured image"
+msgstr "設定特色圖片"
+
+#: admin/videos.php:88
+msgid "Remove featured image"
+msgstr "移除特色圖片"
+
+#: admin/videos.php:89
+msgid "Use as featured image"
+msgstr "設定為精選圖片"
+
+#: admin/videos.php:90
+msgid "Insert into video"
+msgstr "插入影片"
+
+#: admin/videos.php:91
+msgid "Uploaded to this video"
+msgstr "已上傳到此影片"
+
+#: admin/videos.php:92
+msgid "Videos list"
+msgstr "視頻清單"
+
+#: admin/videos.php:93
+msgid "Videos list navigation"
+msgstr "影片清單導覽"
+
+#: admin/videos.php:94
+msgid "Filter videos list"
+msgstr "篩選影片清單"
+
+#: admin/videos.php:111
+#: premium/admin/partials/automations-video-settings.php:31
+#: premium/admin/slider.php:62 premium/public/slider.php:97
+#: premium/public/templates/video-form.php:243
+msgid "Video Description"
+msgstr "影片描述"
+
+#: admin/videos.php:171
+msgid "Video Info"
+msgstr "影片資訊"
+
+#: admin/videos.php:180 premium/public/templates/video-form.php:213
+msgid "Thumbnail Image"
+msgstr "縮略圖"
+
+#: admin/videos.php:566 includes/functions.php:1583
+msgid "Featured Only"
+msgstr "僅限精選"
+
+#: admin/videos.php:640
+msgid "Copy URL"
+msgstr "複製網址"
+
+#: admin/videos.php:649
+msgid "Copy Shortcode"
+msgstr "复制短代码"
+
+#: admin/videos.php:671
+msgid "Custom Fields"
+msgstr "自訂欄位"
+
+#: admin/videos.php:675 includes/functions.php:1769
+msgid "Categories"
+msgstr "商品分類"
+
+#: admin/videos.php:676
+msgid "Tags"
+msgstr "商品標籤"
+
+#: admin/videos.php:718
+msgid "Views"
+msgstr "浏览次数"
+
+#: admin/videos.php:727 premium/includes/vimeo-api/resource-objects.php:166
+#: public/public.php:266
+msgid "Likes"
+msgstr "喜歡"
+
+#: admin/videos.php:736 public/public.php:267
+msgid "Dislikes"
+msgstr "不喜歡"
+
+#: blocks/blocks.php:71 widgets/categories.php:72
+msgid "AIOVG - Video Categories"
+msgstr "AIOVG -影片類別"
+
+#: blocks/blocks.php:72 widgets/categories.php:75
+msgid "Display a list of video categories."
+msgstr "顯示影片類別清單。"
+
+#: blocks/blocks.php:87 includes/functions.php:1576 includes/functions.php:1862
+#: widgets/forms/categories.php:100
+msgid "ASC"
+msgstr "升序掛列"
+
+#: blocks/blocks.php:88 includes/functions.php:1577 includes/functions.php:1863
+#: widgets/forms/categories.php:101
+msgid "DESC"
+msgstr "降序排列"
+
+#: blocks/blocks.php:93 includes/functions.php:1897
+msgid "Show Pagination"
+msgstr "顯示分頁"
+
+#: blocks/blocks.php:94 widgets/videos.php:73
+msgid "AIOVG - Video Gallery"
+msgstr "AIOVG -影片庫"
+
+#: blocks/blocks.php:95 widgets/videos.php:76
+msgid "Display a video gallery."
+msgstr "顯示影片庫。"
+
+#: blocks/blocks.php:96
+msgid "Selected Color"
+msgstr "選擇顏色"
+
+#: blocks/blocks.php:97 widgets/search.php:46
+msgid "AIOVG - Search Form"
+msgstr "AIOVG -搜索表單"
+
+#: blocks/blocks.php:98 widgets/search.php:43
+msgid "A videos search form for your site."
+msgstr "您的網站的搜索表單。"
+
+#: blocks/blocks.php:99 includes/functions.php:1918 widgets/forms/search.php:25
+msgid "Vertical"
+msgstr "垂直"
+
+#: blocks/blocks.php:100 includes/functions.php:1919
+#: widgets/forms/search.php:26
+msgid "Horizontal"
+msgstr "橫"
+
+#: blocks/blocks.php:101 includes/functions.php:1932
+#: widgets/forms/search.php:51
+msgid "Search By Categories"
+msgstr "搜尋%s分類"
+
+#: blocks/blocks.php:102 includes/functions.php:1925
+#: widgets/forms/search.php:44
+msgid "Search By Video Title, Description"
+msgstr "按影片標題、描述搜尋"
+
+#: blocks/blocks.php:103 includes/functions.php:1939
+#: widgets/forms/search.php:58
+msgid "Search By Tags"
+msgstr "搜索合并标签"
+
+#: blocks/blocks.php:104 widgets/video.php:46
+msgid "AIOVG - Video Player"
+msgstr "AIOVG -影片播放器"
+
+#: blocks/blocks.php:105 widgets/video.php:43
+msgid "Display a video player."
+msgstr "顯示影片播放器。"
+
+#: blocks/blocks.php:106
+msgid ""
+"Supports: MP4, WebM, OGV, HLS, MPEG-DASH, YouTube, Vimeo, Dailymotion, "
+"Rumble, Facebook, etc."
+msgstr ""
+"支持： MP4、WEBM、OGV、HLS、MPEG-DASH、YouTube、Vimeo、Dailymotion、Rumble、"
+"Facebook等。"
+
+#: blocks/blocks.php:107
+msgid "a video"
+msgstr "視頻"
+
+#: blocks/blocks.php:117
+msgid "Poster Image"
+msgstr "海報圖片網址"
+
+#: blocks/blocks.php:118
+msgid "Select"
+msgstr "--選擇--"
+
+#: blocks/blocks.php:120
+msgid "Replace"
+msgstr "替換"
+
+#: includes/functions.php:463
+msgid "Video Category"
+msgstr "視頻類別"
+
+#: includes/functions.php:467
+msgid "Video Tag"
+msgstr "視頻標籤"
+
+#: includes/functions.php:471
+#: public/templates/search-form-template-compact.php:20
+#: public/templates/search-form-template-horizontal.php:103
+#: public/templates/search-form-template-horizontal.php:142
+#: public/templates/search-form-template-vertical.php:128
+#: widgets/search.php:119
+msgid "Search Videos"
+msgstr "搜索視頻"
+
+#: includes/functions.php:475
+msgid "User Videos"
+msgstr "用戶影片"
+
+#: includes/functions.php:479
+msgid "Player Embed"
+msgstr "播放器嵌入"
+
+#: includes/functions.php:673
+msgid ""
+"<strong>Please accept cookies to play this video</strong>. By accepting you "
+"will be accessing content from a service provided by an external third party."
+msgstr ""
+"<strong>請接受Cookie以播放此影片</strong>。接受後，您將從外部第三方提供的服務"
+"中存取內容。"
+
+#: includes/functions.php:674
+msgid "I Agree"
+msgstr "我同意"
+
+#: includes/functions.php:1046
+msgid "Sorry, you need to login to view this content."
+msgstr "您需要登錄才能查看此內容. "
+
+#: includes/functions.php:1280
+msgid "Single Video"
+msgstr "單個影片"
+
+#: includes/functions.php:1287 widgets/forms/video.php:24
+#: widgets/forms/video.php:40
+msgid "Select Video"
+msgstr "選擇影片"
+
+#: includes/functions.php:1303 includes/functions.php:1359
+msgid ""
+"Enter your direct file URL in the textbox above (OR) upload your file using "
+"the \"Upload File\" link."
+msgstr ""
+"在上方的文字方塊中輸入您的直接檔案網址(或)使用「上傳檔案」連結上傳檔案。"
+
+#: includes/functions.php:1309 premium/public/templates/video-form.php:160
+msgid "HLS"
+msgstr "HLS"
+
+#: includes/functions.php:1316 premium/public/templates/video-form.php:160
+msgid "MPEG-DASH"
+msgstr "MPEG-DASH"
+
+#: includes/functions.php:1337 includes/functions.php:2070
+msgid "Dailymotion"
+msgstr "保存"
+
+#: includes/functions.php:1344 includes/functions.php:2071
+msgid "Rumble"
+msgstr "震動"
+
+#: includes/functions.php:1528 premium/public/templates/video-form.php:250
+msgid "Select Categories"
+msgstr "选择类别"
+
+#: includes/functions.php:1535 premium/public/templates/video-form.php:302
+#: public/templates/search-form-template-horizontal.php:71
+#: public/templates/search-form-template-vertical.php:71
+msgid "Select Tags"
+msgstr "選擇標籤"
+
+#: includes/functions.php:1542
+msgid "Include Video ID(s)"
+msgstr "包括影片ID"
+
+#: includes/functions.php:1549
+msgid "Exclude Video ID(s)"
+msgstr "排除影片ID"
+
+#: includes/functions.php:1590
+msgid "Follow URL"
+msgstr "關注網址"
+
+#: includes/functions.php:1598
+msgid "Gallery"
+msgstr "圖庫"
+
+#: includes/functions.php:1745
+msgid "More Button"
+msgstr "更多按鈕"
+
+#: includes/functions.php:1752 widgets/forms/categories.php:152
+msgid "More Button Label"
+msgstr "閱讀更多按鈕標籤"
+
+#: includes/functions.php:1755 widgets/categories.php:67 widgets/videos.php:103
+msgid "Show More"
+msgstr "显示更多"
+
+#: includes/functions.php:1759 widgets/forms/categories.php:157
+msgid "More Button Link"
+msgstr "[更多消息] 按鈕連結"
+
+#: includes/functions.php:1760 widgets/forms/categories.php:159
+msgid "Leave this field blank to use Ajax"
+msgstr "將此欄位留空以使用AJAX"
+
+#: includes/functions.php:1803
+msgid "Include Category ID(s)"
+msgstr "包括類別ID"
+
+#: includes/functions.php:1810
+msgid "Exclude Category ID(s)"
+msgstr "排除類別 ( 身份 ) : "
+
+#: includes/functions.php:1907
+msgid "Search Form"
+msgstr "搜尋從"
+
+#: includes/functions.php:2007
+#: premium/public/templates/videos-template-playlist.php:164
+#, php-format
+msgid "%s ago"
+msgstr "%s 前"
+
+#: includes/functions.php:2066
+msgid "Self Hosted"
+msgstr "自架主機"
+
+#: includes/functions.php:2066
+msgid "External URL"
+msgstr "外部URL"
+
+#: includes/functions.php:2067
+msgid "Adaptive / Live Streaming"
+msgstr "自適應/直播"
+
+#: includes/functions.php:2076
+msgid "Third-Party Player Code"
+msgstr "第三方玩家代碼"
+
+#: includes/functions.php:2090
+msgid "Classic"
+msgstr "經典"
+
+#: includes/functions.php:2738
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/functions.php:2739
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/functions.php:2766
+#, php-format
+msgid "Page %d of %d"
+msgstr "%d的頁面%d"
+
+#: includes/functions.php:2841
+msgid "Pin It"
+msgstr "Pin it"
+
+#: includes/player/popup.php:45
+msgid "Open Popup"
+msgstr "開啟彈出視窗"
+
+#: includes/player/videojs.php:555 includes/player/vidstack.php:544
+#: public/templates/player-videojs.php:1033
+#: public/templates/player-vidstack.php:952
+msgid "Paste this code in your HTML page"
+msgstr "將此代碼貼到您的HTML頁面中"
+
+#: premium/admin/admin.php:39
+#, php-format
+msgid "Proudly by %s"
+msgstr "自豪地由%s"
+
+#: premium/admin/admin.php:206
+msgid "[{site_name}] Video \"{video_title}\" received"
+msgstr "已收到[{site_name}]影片「{video_title}」"
+
+#: premium/admin/admin.php:207
+msgid ""
+"Dear {name},\n"
+"\n"
+"Your video \"{video_title}\" has been received and it's pending review. This "
+"review process could take up to 48 hours.\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+"尊敬的{name} ：\n"
+"\n"
+"您的影片「{video_title}」已收到，正在等待審核。 此審查過程最多可能需要48小"
+"時。\n"
+"\n"
+"謝謝！\n"
+"{site_name}的管理員"
+
+#: premium/admin/admin.php:216
+msgid "[{site_name}] Video \"{video_title}\" published"
+msgstr "[{site_name}]影片「{video_title}」已發佈"
+
+#: premium/admin/admin.php:217
+msgid ""
+"Dear {name},\n"
+"\n"
+"Your video \"{video_title}\" is now available at {video_url} and can be "
+"viewed by the public.\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+"尊敬的{name} ：\n"
+"\n"
+"您的影片「{video_title}」現在可在{video_url}上觀看，並可供公眾觀看。\n"
+"\n"
+"謝謝！\n"
+"{site_name}的管理員"
+
+#: premium/admin/admin.php:284
+msgid "Please wait while we are loading data from the API server..."
+msgstr "正在從API伺服器載入資料，請稍候..."
+
+#: premium/admin/admin.php:285 premium/public/public.php:166
+msgid "Sorry, the auto-thumbnail generation failed."
+msgstr "很抱歉，自動縮圖產生失敗。"
+
+#: premium/admin/admin.php:286 premium/public/public.php:167
+msgid ""
+"Use the \"Capture Image\" button below to generate an image from your video."
+msgstr "使用下方的「擷取圖片」按鈕，從影片中產生圖片。"
+
+#: premium/admin/admin.php:287 premium/public/public.php:168
+msgid "Select an image from the options below."
+msgstr "從以下選項中選擇一張圖片。"
+
+#: premium/admin/admin.php:288 premium/public/public.php:169
+msgid "Generating images..."
+msgstr "正在產生影像..."
+
+#: premium/admin/admin.php:289 premium/public/public.php:170
+msgid ""
+"No video found. Add a video in the \"MP4\" video field to capture an image."
+msgstr "找不到影片。在「MP4」影片欄位中新增影片以擷取影像。"
+
+#: premium/admin/admin.php:290 premium/public/public.php:171
+msgid "Invalid video file."
+msgstr "影片檔案無效。"
+
+#: premium/admin/admin.php:291 premium/public/public.php:172
+msgid ""
+"Sorry, your video file server doesn't give us permission to generate an "
+"image from the video."
+msgstr "很抱歉，您的影片檔案伺服器未授予我們從影片產生圖片的權限。"
+
+#: premium/admin/admin.php:306 premium/admin/user.php:340
+msgid "User Dashboard"
+msgstr "用戶控制面板"
+
+#: premium/admin/admin.php:311 premium/admin/user.php:348
+msgid "Video Form"
+msgstr "影片表單"
+
+#: premium/admin/admin.php:316 premium/admin/user.php:356
+msgid "My Playlists"
+msgstr "我的播放清單"
+
+#: premium/admin/ads.php:34
+msgid "Monetize"
+msgstr "創造營收"
+
+#: premium/admin/ads.php:50 premium/admin/ads.php:114
+msgid "Video Ads"
+msgstr "影片廣告"
+
+#: premium/admin/ads.php:51
+msgid ""
+"Monetize your videos using DoubleClick for Publishers (DFP), the Google "
+"AdSense network, or any VAST-compliant ad server."
+msgstr ""
+"使用DoubleClick for Publishers (DFP)、Google AdSense聯播網或任何符合VAST規範"
+"的廣告伺服器，透過影片獲利。"
+
+#: premium/admin/ads.php:70
+msgid "Enable Ads"
+msgstr "開啟Ads"
+
+#: premium/admin/ads.php:71
+msgid "Check this option to enable advertisements on your videos"
+msgstr "勾選此選項，即可在影片上啟用廣告"
+
+#: premium/admin/ads.php:77
+msgid "VAST URL"
+msgstr "VAST URL"
+
+#: premium/admin/ads.php:78
+#, php-format
+msgid ""
+"Click here for a list of <a href=\"%s\" target=\"_blank\">Ad Tag Variables</"
+"a> (Macros) supported by the plugin."
+msgstr ""
+"按一下此處查看外掛程式支援<a href=\"%s\" target=\"_blank\">的廣告標籤變數</"
+"a>(巨集)清單。"
+
+#: premium/admin/ads.php:84
+msgid "VPAID Mode"
+msgstr "VPAID模式"
+
+#: premium/admin/ads.php:88
+msgid "Enabled"
+msgstr "启用"
+
+#: premium/admin/ads.php:89
+msgid "Insecure"
+msgstr "不安全"
+
+#: premium/admin/ads.php:90
+msgid "Disabled"
+msgstr "停用"
+
+#: premium/admin/ads.php:96
+msgid "Google Publisher Tag (GPT)"
+msgstr "Google發佈商標籤(GPT)"
+
+#: premium/admin/ads.php:97
+#, php-format
+msgid ""
+"Optional. Check this option to display companion ads using <a href=\"%s\" "
+"target=\"_blank\">Google Publisher Tag</a>"
+msgstr ""
+"選用。選中此選項可使用<a href=\"%s\" target=\"_blank\">Google發佈商標籤</a>顯"
+"示隨播廣告"
+
+#: premium/admin/automations.php:33
+msgid "All-in-One Video Gallery - Automations"
+msgstr "多合一影片庫-自動化"
+
+#: premium/admin/automations.php:34 premium/admin/automations.php:111
+#: premium/admin/automations.php:113 premium/admin/automations.php:126
+msgid "Automations"
+msgstr "自動化"
+
+#: premium/admin/automations.php:68
+msgid "Automations Settings"
+msgstr "自動化設定"
+
+#: premium/admin/automations.php:70
+#, php-format
+msgid ""
+"This feature also requires API keys from the services you import. Please "
+"configure your keys <a href=\"%s\">here</a>."
+msgstr ""
+"此功能還需要來自您匯入服務的API金鑰。請<a href=\"%s\">在此</a>處設定您的金"
+"鑰。"
+
+#: premium/admin/automations.php:91
+msgid "Enable Fast Mode"
+msgstr "啟用快速模式"
+
+#: premium/admin/automations.php:92
+msgid ""
+"Increase speed by disabling do_action calls in wp_insert_post during import"
+msgstr "在匯入期間在wp_insert_post中停用do_action呼叫以提高速度"
+
+#: premium/admin/automations.php:93
+msgid ""
+"NOTE: This option is for advanced users with knowledge of WordPress "
+"development. Your theme or plugins may require these calls when posts are "
+"created. Next action will be disabled: 'transition_post_status', "
+"'save_post', 'pre_post_update', 'add_attachment', 'edit_attachment', "
+"'edit_post', 'post_updated', 'wp_insert_post'. Verify your created posts "
+"work properly if you check this box."
+msgstr ""
+
+#: premium/admin/automations.php:112
+msgid "Automation"
+msgstr "自動控制"
+
+#: premium/admin/automations.php:114
+msgid "Add New Import"
+msgstr "新匯入"
+
+#: premium/admin/automations.php:116
+msgid "New Import"
+msgstr "新匯入"
+
+#: premium/admin/automations.php:117
+msgid "Edit Import"
+msgstr "編輯導入"
+
+#: premium/admin/automations.php:118
+msgid "Update Import"
+msgstr "更新匯入"
+
+#: premium/admin/automations.php:119
+msgid "View Import"
+msgstr "檢視匯入記錄"
+
+#: premium/admin/automations.php:120
+msgid "Search Imports"
+msgstr "搜尋匯入"
+
+#: premium/admin/automations.php:121
+msgid "No imports found"
+msgstr "未找到匯入"
+
+#: premium/admin/automations.php:122
+msgid "No imports found in Trash"
+msgstr "在垃圾桶中找不到匯入"
+
+#: premium/admin/automations.php:127
+msgid "Automations Description"
+msgstr "自動化說明"
+
+#: premium/admin/automations.php:161
+msgid "Enter your import title"
+msgstr "輸入您的匯入標題"
+
+#: premium/admin/automations.php:175
+msgid "Imported Only"
+msgstr "僅限匯入"
+
+#: premium/admin/automations.php:278
+msgid "Source"
+msgstr "來源"
+
+#: premium/admin/automations.php:281
+msgid "Stats"
+msgstr "%s的數據"
+
+#: premium/admin/automations.php:361 premium/admin/automations.php:579
+msgid "Paused"
+msgstr "已暫停"
+
+#: premium/admin/automations.php:379
+#: premium/admin/partials/automations-statistics.php:25
+msgid "Import status"
+msgstr "導入狀態"
+
+#: premium/admin/automations.php:383
+#: premium/admin/partials/automations-statistics.php:38
+msgid "videos imported"
+msgstr "匯入影片於"
+
+#: premium/admin/automations.php:384
+#: premium/admin/partials/automations-statistics.php:64
+msgid "Next scheduled update"
+msgstr "下次預定更新"
+
+#: premium/admin/automations.php:409
+msgid "Imported"
+msgstr "％s項成功導入。"
+
+#: premium/admin/automations.php:456
+msgid "Configure Import Sources"
+msgstr "設定匯入來源"
+
+#: premium/admin/automations.php:465
+msgid "Video Post Settings"
+msgstr "影片文章設定"
+
+#: premium/admin/automations.php:474
+msgid "Import Stats"
+msgstr "自動導入統計信息"
+
+#: premium/admin/automations.php:754
+msgid "Test Run"
+msgstr "測試回合"
+
+#: premium/admin/automations.php:755
+msgid "Publish & Import"
+msgstr "發佈並匯入"
+
+#: premium/admin/automations.php:755
+msgid "Import Next Batch"
+msgstr "匯入下一個文章批次"
+
+#: premium/admin/partials/ads.php:18
+msgid "Disable Ads"
+msgstr "停用廣告"
+
+#: premium/admin/partials/ads.php:23
+msgid "Override VAST URL"
+msgstr "覆蓋VAST網址"
+
+#: premium/admin/partials/ads.php:27
+msgid "Enter your VAST URL"
+msgstr "輸入影片網址"
+
+#: premium/admin/partials/automations-sources.php:19
+msgid "Video Service"
+msgstr "視頻服務"
+
+#: premium/admin/partials/automations-sources.php:81
+msgid "Channel URL"
+msgstr "頻道網址"
+
+#: premium/admin/partials/automations-sources.php:92
+msgid "Enter the YouTube Channel ID (or) a YouTube Video URL from the Channel."
+msgstr "輸入YouTube頻道ID (或)頻道中的YouTube影片網址。"
+
+#: premium/admin/partials/automations-sources.php:100
+msgid "Playlist URL"
+msgstr "播放列表URL"
+
+#: premium/admin/partials/automations-sources.php:118
+#: premium/admin/partials/automations-sources.php:376
+msgid "Search Keyword"
+msgstr "搜索关键词"
+
+#: premium/admin/partials/automations-sources.php:129
+msgid "Enter search terms (space:AND, -:NOT, |:OR)"
+msgstr "輸入搜尋字詞(空格： AND、-: NOT、|: OR)"
+
+#: premium/admin/partials/automations-sources.php:137
+#: premium/includes/functions.php:100
+msgid "Username"
+msgstr "使用者名称"
+
+#: premium/admin/partials/automations-sources.php:155
+#: premium/admin/partials/automations-sources.php:394
+msgid "Video URLs"
+msgstr "影片網址"
+
+#: premium/admin/partials/automations-sources.php:166
+#: premium/admin/partials/automations-sources.php:405
+msgid "Enter one video per line."
+msgstr "每行輸入一段影片。"
+
+#: premium/admin/partials/automations-sources.php:173
+#: premium/admin/partials/automations-sources.php:458
+msgid "Exclude URLs"
+msgstr "排除頁面的鏈接"
+
+#: premium/admin/partials/automations-sources.php:177
+#: premium/admin/partials/automations-sources.php:462
+msgid ""
+"Enter the list of video URLs those should be excluded during the import. "
+"Enter one video per line."
+msgstr "輸入匯入期間應排除的影片網址清單。每行輸入一段影片。"
+
+#: premium/admin/partials/automations-sources.php:193
+msgid "Date"
+msgstr "日期"
+
+#: premium/admin/partials/automations-sources.php:194
+msgid "Rating"
+msgstr "評分"
+
+#: premium/admin/partials/automations-sources.php:195
+msgid "Relevance"
+msgstr "相關性"
+
+#: premium/admin/partials/automations-sources.php:250
+msgid "User ID"
+msgstr "用戶ID"
+
+#: premium/admin/partials/automations-sources.php:260
+msgid "Enter your Vimeo User ID"
+msgstr "輸入您的Vimeo使用者ID"
+
+#: premium/admin/partials/automations-sources.php:268
+msgid "Showcase ID"
+msgstr "展示ID"
+
+#: premium/admin/partials/automations-sources.php:278
+msgid "Enter your Vimeo Showcase ID"
+msgstr "輸入您的Vimeo Showcase ID"
+
+#: premium/admin/partials/automations-sources.php:286
+msgid "Category Name"
+msgstr "分類名稱"
+
+#: premium/admin/partials/automations-sources.php:304
+msgid "Channel ID"
+msgstr "頻道ID"
+
+#: premium/admin/partials/automations-sources.php:314
+msgid "Enter your Vimeo Channel ID"
+msgstr "輸入您的Vimeo頻道名稱."
+
+#: premium/admin/partials/automations-sources.php:322
+msgid "Folder ID"
+msgstr "資料夾ID"
+
+#: premium/admin/partials/automations-sources.php:332
+msgid "Enter your Vimeo Folder ID"
+msgstr "輸入您的Vimeo資料夾ID"
+
+#: premium/admin/partials/automations-sources.php:340
+msgid "Group ID"
+msgstr "群組 ID"
+
+#: premium/admin/partials/automations-sources.php:350
+msgid "Enter your Vimeo Group ID"
+msgstr "輸入 Vimeo 組"
+
+#: premium/admin/partials/automations-sources.php:358
+msgid "Portfolio ID"
+msgstr "專案集ID"
+
+#: premium/admin/partials/automations-sources.php:368
+msgid "Enter your Vimeo Portfolio ID"
+msgstr "輸入您的Vimeo作品集ID"
+
+#: premium/admin/partials/automations-sources.php:412
+msgid "Filter by Tags"
+msgstr "以標籤篩選"
+
+#: premium/admin/partials/automations-sources.php:420
+msgid "Enter a comma-separated list of tags to filter on"
+msgstr "輸入以逗號分隔的標籤清單以進行篩選"
+
+#: premium/admin/partials/automations-sources.php:427
+msgid "Exclude Tags"
+msgstr "排除標籤"
+
+#: premium/admin/partials/automations-sources.php:435
+msgid "Enter a comma-separated list of tags to exclude"
+msgstr "輸入要排除的標籤的逗號分隔清單"
+
+#: premium/admin/partials/automations-sources.php:442
+msgid "Include Subfolders"
+msgstr "包含子資料夾"
+
+#: premium/admin/partials/automations-sources.php:446
+msgid "Yes"
+msgstr "是"
+
+#: premium/admin/partials/automations-sources.php:446
+msgid "No"
+msgstr "否"
+
+#: premium/admin/partials/automations-sources.php:451
+msgid "Check this option to import videos from the subfolders too."
+msgstr "勾選此選項，也可以從子資料夾匯入影片。"
+
+#: premium/admin/partials/automations-sources.php:470
+msgid "Batch Limit"
+msgstr "批次限制"
+
+#: premium/admin/partials/automations-sources.php:474
+msgid ""
+"Enter the maximum amount of videos to be imported per batch. We recommend "
+"keeping this value less than 500."
+msgstr "輸入每批次要匯入的影片數量上限。建議你將此數值維持在500以下。"
+
+#: premium/admin/partials/automations-sources.php:480
+msgid "Schedule"
+msgstr "時間表"
+
+#: premium/admin/partials/automations-sources.php:486
+msgid "Only Once"
+msgstr "%s 只執行一次"
+
+#: premium/admin/partials/automations-sources.php:487
+msgid "Every 1 Hour"
+msgstr "每1小時"
+
+#: premium/admin/partials/automations-sources.php:488
+msgid "Every 1 Day"
+msgstr "每天"
+
+#: premium/admin/partials/automations-sources.php:489
+msgid "Every 1 Week"
+msgstr "每周"
+
+#: premium/admin/partials/automations-sources.php:490
+msgid "Every 1 Month"
+msgstr "每 1 個月"
+
+#: premium/admin/partials/automations-sources.php:503
+msgid "Configure how frequent the plugin the plugin should import videos."
+msgstr "設定外掛程式匯入影片的頻率。"
+
+#: premium/admin/partials/automations-sources.php:509
+msgid "Reschedule"
+msgstr "重新排程"
+
+#: premium/admin/partials/automations-sources.php:514
+msgid ""
+"Check this option if the plugin should check for new videos after the import "
+"has been completed."
+msgstr "如果外掛在匯入完成後應檢查新視頻，請選中此選項。"
+
+#: premium/admin/partials/automations-statistics.php:47
+msgid "videos excluded"
+msgstr "影片已排除"
+
+#: premium/admin/partials/automations-statistics.php:56
+msgid "duplicate videos ignored"
+msgstr "已忽略重複影片"
+
+#: premium/admin/partials/automations-statistics.php:69
+msgid "History"
+msgstr "我的 %s 紀錄"
+
+#: premium/admin/partials/automations-statistics.php:76
+#, php-format
+msgid "Imported %d videos on %s"
+msgstr "已在 %s  上匯入 %d videos on "
+
+#: premium/admin/partials/automations-statistics.php:84
+msgid "You have not started importing videos."
+msgstr "您尚未開始匯入影片。"
+
+#: premium/admin/partials/automations-submitbox.php:16
+msgid ""
+"We are importing your videos. Please do not refresh or leave this page. This "
+"can take a few minutes."
+msgstr ""
+"我們正在匯入您的影片。請勿重新整理或離開此頁面。這可能需要幾分鐘的時間。"
+
+#: premium/admin/partials/automations-test-screen.php:22
+msgid ""
+"Congrats! Your configuration is working. You can publish the form and start "
+"importing videos."
+msgstr "恭喜！您的配置正在工作。您可以發佈表單並開始匯入影片。"
+
+#: premium/admin/partials/automations-test-screen.php:41
+#, php-format
+msgid "Published on %s"
+msgstr "發佈於 %s"
+
+#: premium/admin/partials/automations-video-settings.php:23
+#, php-format
+msgid ""
+"<code>%%title%%</code> will be replaced by the imported YouTube / Vimeo "
+"title."
+msgstr "<code>%%標題%%</code>將被匯入的YouTube/Vimeo標題取代。"
+
+#: premium/admin/partials/automations-video-settings.php:24
+#, php-format
+msgid ""
+"<code>%%id%%</code> will be replaced by the imported YouTube / Vimeo ID."
+msgstr "<code>%% id %%</code>將被匯入的YouTube/Vimeo ID取代。"
+
+#: premium/admin/partials/automations-video-settings.php:25
+#, php-format
+msgid ""
+"Use this field to add custom text/shortcode before or after the imported "
+"video title. Leaving this field empty will import the video title equivalent "
+"to <code>%%title%%</code>."
+msgstr ""
+"使用此字段在導入的視頻標題之前或之後添加自定義文本/短代碼。將此欄位留空將導入"
+"相當於<code>%%標題%%</code>的視頻標題。"
+
+#: premium/admin/partials/automations-video-settings.php:36
+msgid "Check this option to import the video description."
+msgstr "勾選此選項可匯入影片說明。"
+
+#: premium/admin/partials/automations-video-settings.php:40
+#, php-format
+msgid ""
+"<code>%%description%%</code> will be replaced by the actual video "
+"description."
+msgstr "<code>%%描述%%</code>將替換為實際的影片描述。"
+
+#: premium/admin/partials/automations-video-settings.php:41
+#, php-format
+msgid ""
+"Use this field to add custom text/shortcode before or after the imported "
+"video description. Leaving this field empty will import the video "
+"description equivalent to <code>%%description%%</code>."
+msgstr ""
+"使用此字段在導入的視頻描述之前或之後添加自定義文本/短代碼。將此欄位留空將導入"
+"相當於<code>%%描述%%</code>的視頻描述。"
+
+#: premium/admin/partials/automations-video-settings.php:53
+msgid "Check this option to set a featured image."
+msgstr "勾選此選項可設定特色圖片。"
+
+#: premium/admin/partials/automations-video-settings.php:76
+msgid "Assign categories to the imported videos."
+msgstr "為匯入的影片指定類別。"
+
+#: premium/admin/partials/automations-video-settings.php:101
+msgid "Assign tags to the imported videos."
+msgstr "為匯入的影片指定標籤。"
+
+#: premium/admin/partials/automations-video-settings.php:107
+msgid "Video Date"
+msgstr "影片日期"
+
+#: premium/admin/partials/automations-video-settings.php:113
+msgid "Original date on the video service"
+msgstr "影片服務的原始日期"
+
+#: premium/admin/partials/automations-video-settings.php:114
+msgid "Date when the video is imported"
+msgstr "匯入影片的日期"
+
+#: premium/admin/partials/automations-video-settings.php:127
+msgid ""
+"Select whether to use the original posting date on the video service, or the "
+"date when the video is imported."
+msgstr "選擇是在影片服務上使用原始發佈日期，還是匯入影片的日期。"
+
+#: premium/admin/partials/automations-video-settings.php:133
+msgid "Video Author"
+msgstr "顯示視頻作者"
+
+#: premium/admin/partials/automations-video-settings.php:145
+msgid "Select the author to whom the video should be assigned."
+msgstr "選擇應將影片分配給的作者。"
+
+#: premium/admin/partials/automations-video-settings.php:151
+msgid "Video Status"
+msgstr "影片狀態"
+
+#: premium/admin/partials/automations-video-settings.php:157
+msgid "Draft"
+msgstr "草稿"
+
+#: premium/admin/partials/automations-video-settings.php:158
+#: premium/admin/user.php:199 premium/admin/user.php:210
+msgid "Pending"
+msgstr "等待"
+
+#: premium/admin/partials/automations-video-settings.php:159
+#: premium/admin/user.php:198 premium/admin/user.php:209
+msgid "Publish"
+msgstr "發佈"
+
+#: premium/admin/partials/automations-video-settings.php:172
+msgid ""
+"Select the default status of the imported videos. Site admin will be "
+"notified through email when an import occurs with the \"Pending\" status."
+msgstr ""
+"選擇匯入影片的預設狀態。當發生「待處理」狀態的匯入時，系統會透過電子郵件通知"
+"網站管理員。"
+
+#: premium/admin/partials/category-fields.php:18
+#: premium/admin/partials/category-fields.php:28
+msgid "Exclude in Video Form"
+msgstr "在影片表單中排除"
+
+#: premium/admin/partials/category-fields.php:22
+#: premium/admin/partials/category-fields.php:33
+msgid "Exclude this category in the front-end video form."
+msgstr "在前端視頻表單中排除此類別。"
+
+#: premium/admin/partials/playlist-fields.php:21
+#: premium/includes/functions.php:101 premium/includes/functions.php:114
+#: premium/includes/vimeo-api/videos-resource.php:33
+#: premium/public/templates/user-dashboard.php:81
+msgid "Videos"
+msgstr "需要為視頻設置封面圖片"
+
+#: premium/admin/partials/playlist-fields.php:68
+#: premium/admin/playlists.php:175
+msgid "Author"
+msgstr "作者"
+
+#: premium/admin/playlist.php:35 premium/public/playlist.php:53
+msgid "Playlist Position"
+msgstr "播放列表位置"
+
+#: premium/admin/playlist.php:39 premium/public/playlist.php:57
+msgid "Right"
+msgstr "右邊"
+
+#: premium/admin/playlist.php:40 premium/public/playlist.php:58
+msgid "Bottom"
+msgstr "左下角"
+
+#: premium/admin/playlist.php:47 premium/public/playlist.php:65
+msgid "Playlist Color"
+msgstr "播放列表顏色"
+
+#: premium/admin/playlist.php:51 premium/public/playlist.php:69
+msgid "Light"
+msgstr "明亮的"
+
+#: premium/admin/playlist.php:52 premium/public/playlist.php:70
+msgid "Dark"
+msgstr "暗的"
+
+#: premium/admin/playlist.php:59 premium/public/playlist.php:77
+msgid "Playlist Width (in pixels)"
+msgstr "播放列表寬度（以像素為單位）"
+
+#: premium/admin/playlist.php:67 premium/public/playlist.php:88
+msgid "Playlist Height (in pixels)"
+msgstr "播放列表高度（以像素爲單位）"
+
+#: premium/admin/playlist.php:75 premium/public/playlist.php:99
+msgid "Autoplay Next Video"
+msgstr "自動播放下一部影片"
+
+#: premium/admin/playlist.php:76 premium/public/playlist.php:100
+msgid "Check this to play next video in the list automatically"
+msgstr "勾選此選項，即可自動播放清單中的下一部影片"
+
+#: premium/admin/playlists.php:33
+msgid "All-in-One Video Gallery - Playlists"
+msgstr "多合一影片庫-播放清單"
+
+#: premium/admin/playlists.php:34 premium/admin/playlists.php:67
+msgid "Video Playlists"
+msgstr "包廂"
+
+#: premium/admin/playlists.php:68
+msgid "All Playlists"
+msgstr "所有播放列表"
+
+#: premium/admin/playlists.php:71
+msgid "New Playlist Name"
+msgstr "播放列表名稱"
+
+#: premium/admin/playlists.php:72
+msgid "Add New Playlist"
+msgstr "新增播放清單"
+
+#: premium/admin/playlists.php:73
+msgid "Edit Playlist"
+msgstr "編輯播放清單"
+
+#: premium/admin/playlists.php:74
+msgid "Update Playlist"
+msgstr "更新播放列表"
+
+#: premium/admin/playlists.php:75
+msgid "View Playlist"
+msgstr "查看播放列表"
+
+#: premium/admin/playlists.php:76
+msgid "Separate playlists with commas"
+msgstr "用逗號分隔播放清單"
+
+#: premium/admin/playlists.php:77
+msgid "Add or remove playlists"
+msgstr "新增或移除播放清單"
+
+#: premium/admin/playlists.php:79
+msgid "Popular Playlists"
+msgstr "熱門播放清單"
+
+#: premium/admin/playlists.php:80
+msgid "Search Playlists"
+msgstr "搜索播放列表"
+
+#: premium/admin/playlists.php:81 premium/public/playlists.php:258
+#: premium/public/public.php:114
+msgid "No playlists found"
+msgstr "未找到播放列表"
+
+#: premium/admin/playlists.php:82
+msgid "No playlists"
+msgstr "無播放清單"
+
+#: premium/admin/playlists.php:83
+msgid "← Go to Playlists"
+msgstr "← 前往播放列表"
+
+#: premium/admin/playlists.php:84
+msgid "Playlists list"
+msgstr "播放列表列表"
+
+#: premium/admin/playlists.php:85
+msgid "Playlists list navigation"
+msgstr "播放清單清單導覽"
+
+#: premium/admin/playlists.php:123
+msgid ""
+"Generally, playlists are created by users from the site's front end. So, "
+"kindly use this page only for informational purposes."
+msgstr ""
+"一般來說，播放列表是由使用者從網站的前端建立的。因此，此頁面僅供參考之用。"
+
+#: premium/admin/playlists.php:124
+msgid ""
+"To avoid conflict with the playlist name created by another user, we prepend "
+"the user ID with the user-entered playlist name \"<strong>[User ID] Playlist "
+"Name\"</strong>. This allows the users to have a playlist name of their "
+"wish. However, the user will only see the actual playlist name he entered in "
+"the front end."
+msgstr ""
+"為了避免與其他用戶創建的播放列表名稱發生衝突，我們在用戶ID前加上用戶輸入的播"
+"放列表名稱“<strong>[User ID] Playlist Name”</strong>。這允許用戶獲得其願望的"
+"播放列表名稱。不過，使用者只會在前端看到自己輸入的實際播放清單名稱。"
+
+#: premium/admin/seo.php:41
+msgid "SEO Settings"
+msgstr "SEO 設定"
+
+#: premium/admin/seo.php:63
+msgid "Schema Markup"
+msgstr "架構標記"
+
+#: premium/admin/seo.php:64
+msgid ""
+"Check this option to enable Schema.org Markup (via JSON-LD) for the videos"
+msgstr "選中此選項可為影片啟用Schema.org標記（通過JSON-LD ）"
+
+#: premium/admin/slider.php:41 premium/public/slider.php:55
+msgid "Slider Layout"
+msgstr "滑塊佈局"
+
+#: premium/admin/slider.php:45 premium/public/slider.php:59
+msgid "Classic (links to the single video page)"
+msgstr "經典（連結至單一影片頁面）"
+
+#: premium/admin/slider.php:46 premium/public/slider.php:60
+msgid "Popup (opens videos in a popup)"
+msgstr "彈出視窗（在彈出視窗中打開視頻）"
+
+#: premium/admin/slider.php:47 premium/public/slider.php:61
+msgid "Compact (player embedded at the top of the slider)"
+msgstr "精簡（播放器嵌入在滑塊頂部）"
+
+#: premium/admin/slider.php:48 premium/public/slider.php:62
+msgid "Inline (players added as slides)"
+msgstr "INLINE （已新增為投影片的玩家）"
+
+#: premium/admin/slider.php:57 premium/public/slider.php:81
+msgid "Show / Hide (Player)"
+msgstr "顯示/隱藏（玩家）"
+
+#: premium/admin/slider.php:63 premium/public/slider.php:105
+msgid "Like / Dislike Button"
+msgstr "不喜歡"
+
+#: premium/admin/slider.php:64 premium/public/slider.php:113
+msgid "Playlist Button"
+msgstr "播放清單按鈕"
+
+#: premium/admin/slider.php:73
+msgid "Link Video Titles"
+msgstr "影片標題"
+
+#: premium/admin/slider.php:74
+msgid "Check this to link video titles to the single video page"
+msgstr "勾選此選項，即可將影片標題連結至單一影片頁面"
+
+#: premium/admin/slider.php:86 premium/public/slider.php:126
+msgid "Arrows"
+msgstr "箭頭"
+
+#: premium/admin/slider.php:93 premium/public/slider.php:133
+msgid "Arrow Size (in pixels)"
+msgstr "箭頭大小（以像素為單位）"
+
+#: premium/admin/slider.php:103 premium/public/slider.php:143
+msgid "Arrow Radius (in pixels)"
+msgstr "箭頭半徑（以像素為單位）"
+
+#: premium/admin/slider.php:113 premium/public/slider.php:153
+msgid "Arrow Top Offset (in percentage)"
+msgstr "箭頭頂部偏移（百分比）"
+
+#: premium/admin/slider.php:114 premium/public/slider.php:154
+msgid "Enter \"0\" to show arrows at the top-right corner above the slider."
+msgstr "輸入「0」以在滑桿上方的右上角顯示箭頭。"
+
+#: premium/admin/slider.php:123 premium/public/slider.php:163
+msgid "Arrow Left Offset (in pixels)"
+msgstr "箭頭左偏移（以像素為單位）"
+
+#: premium/admin/slider.php:124 premium/admin/slider.php:134
+#: premium/public/slider.php:164 premium/public/slider.php:174
+msgid "This field has no effect when the \"Arrow Top Offset\" value is \"0\"."
+msgstr "當“Arrow Top Offset”值爲“0”時，此字段無效。"
+
+#: premium/admin/slider.php:133 premium/public/slider.php:173
+msgid "Arrow Right Offset (in pixels)"
+msgstr "向右箭頭偏移（以像素為單位）"
+
+#: premium/admin/slider.php:143 premium/public/slider.php:183
+msgid "Arrow BG Color"
+msgstr "箭頭背景顏色"
+
+#: premium/admin/slider.php:150 premium/public/slider.php:190
+msgid "Arrow Icon Color"
+msgstr "箭頭圖示顏色"
+
+#: premium/admin/slider.php:157 premium/public/slider.php:197
+msgid "Dots"
+msgstr "圓點"
+
+#: premium/admin/slider.php:164
+msgid "Dot Size (in pixels)"
+msgstr "大小(px)"
+
+#: premium/admin/slider.php:174 premium/public/slider.php:214
+msgid "Dot Color"
+msgstr "圓點顏色"
+
+#: premium/admin/slider.php:181 premium/public/slider.php:221
+msgid "Slider Autoplay"
+msgstr "滑塊自動播放"
+
+#: premium/admin/slider.php:182
+msgid "Check this to auto-rotate the slider"
+msgstr "勾選此選項可自動旋轉滑塊"
+
+#: premium/admin/slider.php:188 premium/public/slider.php:228
+msgid "Autoplay Speed (in milliseconds)"
+msgstr "自動播放速度（以毫秒為單位）"
+
+#: premium/admin/thumbnail-generator.php:35
+msgid "Auto Thumbnail Generator"
+msgstr "自動縮圖產生器"
+
+#: premium/admin/thumbnail-generator.php:55
+msgid "\"Capture Image\" button"
+msgstr "「擷取影像」按鈕"
+
+#: premium/admin/thumbnail-generator.php:56
+msgid ""
+"Check this option to enable HTML5 browser-based thumbnail generation feature "
+"in the front-end video form"
+msgstr "選中此選項可在前端視頻表單中啟用HTML5瀏覽器縮略圖生成功能"
+
+#: premium/admin/thumbnail-generator.php:62
+msgid "FFMPEG Path"
+msgstr "FFMPEG路徑"
+
+#: premium/admin/thumbnail-generator.php:64
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">FFMPEG</a> is a free and open-source "
+"library/tool that is required to auto-generate images from your videos. Your "
+"server may already have FFMPEG installed. Simply contact your hosting "
+"provider and ask them the application path and add to this field."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">FFMPEG</a>是一個免費的開源庫/工具，需要從您"
+"的影片自動生成圖像。您的伺服器可能已安裝FFMPEG。只需聯絡你的託管服務供應商，"
+"詢問他們的申請路徑，並新增至此欄位即可。"
+
+#: premium/admin/thumbnail-generator.php:66
+msgid ""
+"If your server does not support FFMPEG and you want to install it into the "
+"server, you need root access. If you are in a dedicated/VPS server you can "
+"install it using the root. In the case of shared hosting, you need to "
+"contact your hosting provider for installing FFMPEG."
+msgstr ""
+"如果您的伺服器不支援FFMPEG ，並且您想將其安裝到伺服器中，則需要root存取權限。"
+"如果您使用專用/VPS伺服器，則可以使用根目錄進行安裝。如果是共用主機，您需要聯"
+"絡您的主機供應商以安裝FFMPEG。"
+
+#: premium/admin/thumbnail-generator.php:73
+msgid "Number of images to auto-generate"
+msgstr "要自動生成的影像數量"
+
+#: premium/admin/thumbnail-generator.php:74
+msgid ""
+"Accepted values are [0 - 10]. Leave empty or add \"0\" to not generate any "
+"image."
+msgstr "可接受的值爲[0 - 10]。留空或新增「0」以不產生任何圖片。"
+
+#: premium/admin/thumbnail-generator.php:102
+msgid "Test FFMPEG"
+msgstr "測試FFMPEG"
+
+#: premium/admin/thumbnail-generator.php:146
+msgid "Congrats, FFMPEG is active in your server."
+msgstr "恭喜， FFMPEG已在您的伺服器中啟用。"
+
+#: premium/admin/thumbnail-generator.php:149
+msgid ""
+"FFMPEG not found in the given path. Please contact your hosting provider."
+msgstr "在給定的路徑中找不到FFMPEG。請聯絡你的託管服務供應商。"
+
+#: premium/admin/thumbnail-generator.php:153
+msgid "FFMPEG path is empty."
+msgstr "FFMPEG路徑為空。"
+
+#: premium/admin/thumbnail-generator.php:157
+msgid ""
+"exec() is disabled in PHP settings. Please contact your hosting provider."
+msgstr "exec ()在PHP設定中已停用。請聯絡你的託管服務供應商。"
+
+#: premium/admin/user.php:34
+msgid "User / Front-end Submission"
+msgstr "前台提交"
+
+#: premium/admin/user.php:51
+msgid "User Playlists"
+msgstr "用戶播放列表"
+
+#: premium/admin/user.php:58
+msgid "Front-end Video Submission"
+msgstr "前端影片提交"
+
+#: premium/admin/user.php:65
+msgid "Anti-Spam"
+msgstr "防垃圾留言"
+
+#: premium/admin/user.php:72
+msgid "User Account Settings"
+msgstr "會員帳號設置"
+
+#: premium/admin/user.php:79
+msgid "[Email Template] Video Pending Review"
+msgstr "[電子郵件範本]影片待審核"
+
+#: premium/admin/user.php:86
+msgid "[Email Template] Video Published"
+msgstr "[電子郵件範本]影片已發佈"
+
+#: premium/admin/user.php:107
+msgid "Playlists / Favorites"
+msgstr "播放列表/收藏"
+
+#: premium/admin/user.php:108
+msgid "Check this option to allow users to create playlists"
+msgstr "選中此選項可允許用戶創建播放列表"
+
+#: premium/admin/user.php:114
+msgid "Playlists Limit"
+msgstr "播放列表限制"
+
+#: premium/admin/user.php:115
+msgid ""
+"Enter the maximum number of playlists a user can create. Leave this field "
+"empty for an unlimited count."
+msgstr "輸入用戶可以創建的最大播放列表數量。將此欄位留空以獲得無限計數。"
+
+#: premium/admin/user.php:122
+msgid "Admin Menu"
+msgstr "管理功能表"
+
+#: premium/admin/user.php:123
+msgid ""
+"Check this option to enable the \"Video Playlists\" menu in the plugin back-"
+"end"
+msgstr "勾選此選項以啟用外掛程式後端的「影片播放清單」選單"
+
+#: premium/admin/user.php:132
+msgid "Allowed Source Types"
+msgstr "允許的來源類型"
+
+#: premium/admin/user.php:140
+msgid "Default Source Type"
+msgstr "預設來源類型"
+
+#: premium/admin/user.php:141
+msgid "The default source type should be one of the \"Allowed Source Types\"."
+msgstr "預設來源類型應為「允許的來源類型」之一。"
+
+#: premium/admin/user.php:148
+msgid "Assign Categories"
+msgstr "可選擇為您的產品分配類別，使其更容易瀏覽並在您的商店中查找。"
+
+#: premium/admin/user.php:149
+msgid "Check this box to allow users to select categories for their videos"
+msgstr "選中此框以允許用戶為其視頻選擇類別"
+
+#: premium/admin/user.php:155
+msgid "Assign Tags"
+msgstr "分配張貼標記"
+
+#: premium/admin/user.php:156
+msgid "Check this box to allow users to select tags for their videos"
+msgstr "選中此框以允許用戶為其視頻選擇標籤"
+
+#: premium/admin/user.php:162
+msgid "Allow File Uploads"
+msgstr "允許上傳檔案"
+
+#: premium/admin/user.php:163
+msgid "Check this box to allow users to upload files to your website"
+msgstr "選中此框以允許用戶將文件上傳到您的網站"
+
+#: premium/admin/user.php:169
+msgid "Allowed File Formats"
+msgstr "允許的檔案格式"
+
+#: premium/admin/user.php:186
+msgid "Maximum Upload Size"
+msgstr "使用目前的瀏覽器上傳檔案時，%s 已超過多檔上傳介面的檔案上傳大小限制。"
+
+#: premium/admin/user.php:187
+msgid ""
+"In bytes. Enter the maximum file size the users can upload in your website. "
+"Leave this field empty to allow the maximium possible file size."
+msgstr ""
+"以位元組為單位。輸入用戶可以在您的網站中上傳的最大文件大小。將此欄位留空以允"
+"許最大可能的檔案大小。"
+
+#: premium/admin/user.php:194
+msgid "Default New Video Status"
+msgstr "預設新影片狀態"
+
+#: premium/admin/user.php:205
+msgid "Edit Video Status"
+msgstr "編輯影片狀態"
+
+#: premium/admin/user.php:216
+msgid "Terms and Conditions URL"
+msgstr "條款和條件URL"
+
+#: premium/admin/user.php:217
+msgid "Optional. Enter your Terms and Conditions Page URL."
+msgstr "可選。輸入您的條款和條件頁面網址。"
+
+#: premium/admin/user.php:226
+msgid "Honeypot Protection"
+msgstr "蜜罐保護"
+
+#: premium/admin/user.php:227
+msgid ""
+"Check this to block spam submissions using our honeypot anti-spam technique. "
+"No Captcha or extra verification field hassle to the users. Only lets spam "
+"bots suffer using our anti-spam filter."
+msgstr ""
+"勾選此選項，即可使用我們的蜜罐反垃圾郵件技術封鎖垃圾郵件提交。沒有驗證碼或額"
+"外的驗證欄位給用戶帶來麻煩。使用我們的反垃圾郵件過濾器，只會讓垃圾郵件機器人"
+"受到影響。"
+
+#: premium/admin/user.php:233
+msgid "Honeypot Field Name"
+msgstr "Honeypot 欄位"
+
+#: premium/admin/user.php:234
+msgid ""
+"Unique honeypot field name generated for each WordPress installation, so it "
+"is hard for spam bots to make one fit for all solutions to bypass the "
+"honeypot anti-spam test. Use this field to change the field named auto-"
+"generated by the plugin. Changing this field name often is a good idea. "
+"Should definitely do if you are getting spam."
+msgstr ""
+"為每個WordPress安裝產生的獨特蜜罐欄位名稱，因此垃圾郵件機器人很難讓所有解決方"
+"案都適合繞過蜜罐反垃圾郵件測試。使用此字段更改插件名爲auto-generated的字段。"
+"經常更改此欄位名稱是一個好主意。如果您收到垃圾郵件，絕對應該這樣做。"
+
+#: premium/admin/user.php:240
+msgid "Timetrap Protection"
+msgstr "時間陷阱保護"
+
+#: premium/admin/user.php:241
+msgid "Check this to enable a time-based spam blocker"
+msgstr "選中此選項可啟用基於時間的垃圾郵件攔截器"
+
+#: premium/admin/user.php:247
+msgid "Timetrap Minimum Time in Seconds"
+msgstr "時間陷阱最小時間（以秒為單位）"
+
+#: premium/admin/user.php:248
+msgid ""
+"Minimum time needed to complete the form. Forms submitted in under 3 seconds "
+"of the page loading are typically spam. Use this field to have form "
+"timeouts, and prevent instant posting. "
+msgstr ""
+"填寫表格所需的最短時間。在頁面載入後不到3秒內提交的表單通常是垃圾表單。使用此"
+"欄位可設定表單逾時，並防止即時發佈。"
+
+#: premium/admin/user.php:257
+msgid "Custom Login URL"
+msgstr "自定義登錄網址"
+
+#: premium/admin/user.php:258
+msgid ""
+"Optional. Enter your custom Login Page URL. Leave this field empty to use "
+"the default WordPress Login form."
+msgstr ""
+"可選。輸入您的自定義登錄頁面URL。將此字段留空以使用默認的WordPress登錄表單。"
+
+#: premium/admin/user.php:264
+msgid "Custom Registration URL"
+msgstr "自訂註冊網址"
+
+#: premium/admin/user.php:265
+msgid ""
+"Optional. Enter your custom Registration Page URL. Leave this field empty to "
+"use the default WordPress Registration URL."
+msgstr ""
+"可選。輸入您的自訂註冊頁面網址。將此字段留空以使用默認的WordPress註冊URL。"
+
+#: premium/admin/user.php:271
+msgid "Custom Forgot Password URL"
+msgstr "自訂忘記密碼網址"
+
+#: premium/admin/user.php:272
+msgid ""
+"Optional. Enter your custom Forgot Password Page URL. Leave this field empty "
+"to use the default WordPress Forgot Password URL."
+msgstr ""
+"可選。輸入您的自定義忘記密碼頁面URL。將此字段留空以使用默認的WordPress忘記密"
+"碼URL。"
+
+#: premium/admin/user.php:281 premium/admin/user.php:311
+msgid "Email Subject"
+msgstr "電子郵件主旨"
+
+#: premium/admin/user.php:288 premium/admin/user.php:318
+msgid "Email Body"
+msgstr "電子郵件正文"
+
+#: premium/admin/user.php:291 premium/admin/user.php:321
+msgid "Supported Placeholders:"
+msgstr "支持的佔位符："
+
+#: premium/admin/user.php:292 premium/admin/user.php:322
+msgid "The video owner's display name on the site"
+msgstr "影片擁有者在網站上的顯示名稱"
+
+#: premium/admin/user.php:293 premium/admin/user.php:323
+msgid "The video owner's user name on the site"
+msgstr "影片擁有者在網站上的使用者名稱"
+
+#: premium/admin/user.php:294 premium/admin/user.php:324
+msgid "Your site name"
+msgstr "你的網站名稱"
+
+#: premium/admin/user.php:295 premium/admin/user.php:325
+msgid "Your site name with link"
+msgstr "帶有連結的網站名稱"
+
+#: premium/admin/user.php:296 premium/admin/user.php:326
+msgid "Your site url with link"
+msgstr "帶有連結的網站網址"
+
+#: premium/admin/user.php:297 premium/admin/user.php:327
+msgid "Video's title"
+msgstr "影片標題"
+
+#: premium/admin/user.php:298 premium/admin/user.php:328
+msgid "Video's title with link"
+msgstr "帶連結的影片標題"
+
+#: premium/admin/user.php:299 premium/admin/user.php:329
+msgid "Video's url with link"
+msgstr "帶連結的影片網址"
+
+#: premium/admin/user.php:300 premium/admin/user.php:330
+msgid "Current Date"
+msgstr "目前日期"
+
+#: premium/admin/user.php:341
+msgid ""
+"This is the page where the users can manage (add, edit or delete) their "
+"videos in front-end. The [aiovg_user_dashboard] short code must be on this "
+"page."
+msgstr ""
+"這是用戶可以在前端管理（新增、編輯或刪除）影片的頁面。[aiovg_user_dashboard]"
+"短代碼必須在此頁面上。"
+
+#: premium/admin/user.php:349
+msgid ""
+"This is the form page where the users can add their videos in front-end. The "
+"[aiovg_video_form] short code must be on this page."
+msgstr ""
+"這是用戶可以在前端添加視頻的表單頁面。[aiovg_video_form]短代碼必須在此頁面"
+"上。"
+
+#: premium/admin/user.php:357
+msgid ""
+"This is the page where the users can manage their playlists in front-end. "
+"The [aiovg_playlist] short code must be on this page."
+msgstr ""
+"這是用戶可以在前端管理其播放列表的頁面。[aiovg_playlist]短代碼必須在此頁面"
+"上。"
+
+#: premium/includes/functions.php:97 premium/includes/functions.php:108
+#: premium/includes/vimeo-api/channel-resource.php:63
+msgid "Channel"
+msgstr "頻道"
+
+#: premium/includes/functions.php:98 premium/public/playlist.php:33
+msgid "Playlist"
+msgstr "播放清單"
+
+#: premium/includes/functions.php:99 premium/includes/functions.php:112
+#: premium/includes/vimeo-api/search-resource.php:81
+msgid "Search"
+msgstr "搜寻"
+
+#: premium/includes/functions.php:106
+#: premium/includes/vimeo-api/album-resource.php:71
+msgid "Showcase / Album"
+msgstr "展示/相冊"
+
+#: premium/includes/functions.php:107
+#: premium/includes/vimeo-api/category-resource.php:66
+msgid "Category"
+msgstr "类别"
+
+#: premium/includes/functions.php:109
+#: premium/includes/vimeo-api/folder-resource.php:68
+msgid "Folder"
+msgstr "無法在範本資料夾中創建 'wpi' 資料夾"
+
+#: premium/includes/functions.php:110
+#: premium/includes/vimeo-api/group-resource.php:59
+msgid "Group"
+msgstr "這個組已經存在。"
+
+#: premium/includes/functions.php:111
+#: premium/includes/vimeo-api/portfolio-resource.php:60
+msgid "Portfolio"
+msgstr "作品集"
+
+#: premium/includes/functions.php:113
+#: premium/includes/vimeo-api/user-resource.php:70
+msgid "User Uploads"
+msgstr "使用者上傳"
+
+#: premium/includes/functions.php:319
+msgid "Scheduled"
+msgstr "預定"
+
+#: premium/includes/functions.php:321
+msgid "Rescheduled"
+msgstr "改期"
+
+#: premium/includes/functions.php:323
+msgid "Completed"
+msgstr "完成"
+
+#: premium/includes/functions.php:376
+msgid "Forgot your password?"
+msgstr "忘記你的密碼？"
+
+#: premium/includes/functions.php:381
+msgid "Create an account"
+msgstr "註冊"
+
+#: premium/includes/functions.php:415 premium/includes/functions.php:445
+msgid "Active"
+msgstr "啟用"
+
+#: premium/includes/functions.php:415 premium/includes/functions.php:445
+msgid "Pending review"
+msgstr "待审核"
+
+#: premium/includes/functions.php:420
+msgid "[{site_name}] New video received"
+msgstr "[{site_name}]收到新影片"
+
+#: premium/includes/functions.php:423
+msgid ""
+"Dear Administrator,<br /><br />You have received a new video on the website "
+"{site_name}.<br />This e-mail contains the video details:<br /><br />Video "
+"ID:{video_id}<br />Video Title:{video_title}<br />Video Status:{video_status}"
+"<br /><br />Please do not respond to this message. It is automatically "
+"generated and is for information purposes only."
+msgstr ""
+"尊敬的管理員：<br /><br />您在網站{site_name}上收到了一段新影片。<br />此電子"
+"郵件包含影片詳細資訊：<br /><br />影片ID ： {video_id}<br />影片標題： "
+"{video_title}<br />影片狀態： {video_status}<br /><br />請勿回覆此訊息。它是"
+"自動生成的，僅供參考。"
+
+#: premium/includes/functions.php:450
+msgid "[{site_name}] Video \"{video_title}\" edited"
+msgstr "[{site_name}]影片「{video_title}」已編輯"
+
+#: premium/includes/functions.php:453
+msgid ""
+"Dear Administrator,<br /><br />This notification was for the video on the "
+"website {site_name} \"{video_title}\" and is edited.<br />This e-mail "
+"contains the video details:<br /><br />Video ID:{video_id}<br />Video Title:"
+"{video_title}<br />Video Status:{video_status}<br /><br />Please do not "
+"respond to this message. It is automatically generated and is for "
+"information purposes only."
+msgstr ""
+
+#: premium/includes/functions.php:479
+msgid "[{site_name}] {videos_count} videos auto imported"
+msgstr "[{site_name}] {videos_count}部影片已自動匯入"
+
+#: premium/includes/functions.php:482
+msgid ""
+"Dear Administrator,<br /><br />You have {videos_count} videos auto imported "
+"on the website {site_name} and waiting for your approval. You can find those "
+"videos using the link below,<br />{videos_link}<br />Import Source: "
+"{import_source_link}<br /><br />Please do not respond to this message. It is "
+"automatically generated and is for information purposes only."
+msgstr ""
+
+#: premium/includes/vimeo-api/query.php:270
+msgid "Vimeo access token not found."
+msgstr "找不到存取權限"
+
+#: premium/includes/vimeo-api/query.php:273
+#, php-format
+msgid "%s: %s (error code: %s)"
+msgstr "%s ： %s （錯誤代碼： %s ）"
+
+#: premium/includes/vimeo-api/query.php:274
+#: premium/includes/vimeo-api/query.php:282
+msgid "Vimeo API error encountered"
+msgstr "遇到Vimeo API錯誤"
+
+#: premium/includes/vimeo-api/query.php:286
+msgid "An unknown Vimeo API error has happened. Please try again."
+msgstr "發生未知的Vimeo API錯誤。請再試一次。"
+
+#: premium/includes/vimeo-api/resource-objects.php:56
+#: premium/includes/vimeo-api/resource-objects.php:68
+msgid "Something went wrong."
+msgstr "出了些問題."
+
+#: premium/includes/vimeo-api/resource-objects.php:130
+msgid "Newest"
+msgstr "最新預定日期"
+
+#: premium/includes/vimeo-api/resource-objects.php:136
+msgid "Alphabetical &#x1F81D;"
+msgstr "按英文字母順序"
+
+#: premium/includes/vimeo-api/resource-objects.php:142
+msgid "Alphabetical &#x1F81F;"
+msgstr "按英文字母順序"
+
+#: premium/includes/vimeo-api/resource-objects.php:154
+msgid "Oldest"
+msgstr "最舊預定日期"
+
+#: premium/includes/vimeo-api/resource-objects.php:160
+msgid "Plays"
+msgstr "遊戲"
+
+#: premium/includes/vimeo-api/resource-objects.php:178
+msgid "Relevancy"
+msgstr "關聯"
+
+#: premium/includes/vimeo-api/resource-objects.php:184
+msgid "Default order"
+msgstr "默認排序"
+
+#: premium/includes/vimeo-api/resource-objects.php:253
+#, php-format
+msgid "Resource %s is not registered."
+msgstr "資源%s未註冊。"
+
+#: premium/includes/vimeo-api/showcase-resource.php:32
+msgid "Showcase"
+msgstr "展示網站"
+
+#: premium/includes/vimeo-import.php:109
+#: premium/includes/youtube-api/youtube-api.php:418
+#: premium/includes/youtube-api/youtube-api.php:468
+msgid "No videos found matching your query."
+msgstr "找不到符合您查詢的影片。"
+
+#: premium/includes/youtube-api/youtube-api.php:60
+msgid "YouTube API key not found."
+msgstr "找不到YouTube API金鑰。"
+
+#: premium/includes/youtube-api/youtube-api.php:64
+msgid "Import source not found."
+msgstr "找不到匯入來源。"
+
+#: premium/public/automations.php:58
+msgid "Every 5 minutes"
+msgstr "每5分鐘"
+
+#: premium/public/compact.php:33
+msgid "Compact"
+msgstr "緊湊"
+
+#: premium/public/playlists.php:534
+msgid "Remove from Playlist"
+msgstr "從播放清單中移除"
+
+#: premium/public/playlists.php:608 premium/public/public.php:116
+msgid "You have reached the maximium number of playlists allowed."
+msgstr "您已達到允許的播放列表數量上限。"
+
+#: premium/public/playlists.php:613 premium/public/playlists.php:647
+#: premium/public/playlists.php:678 premium/public/playlists.php:709
+#: premium/public/templates/single-playlist.php:15
+#: premium/public/templates/user-playlists.php:16
+msgid "You do not have sufficient permissions to do this action."
+msgstr "您沒有足夠的許可權來執行此操作。"
+
+#: premium/public/popup.php:33
+msgid "Popup"
+msgstr "加入購物車的彈出視窗"
+
+#: premium/public/public.php:111
+msgid "Add to Playlist"
+msgstr "添加到包廂"
+
+#: premium/public/public.php:112
+msgid "Sorry, you must login to create a playlist."
+msgstr "很抱歉，您必須登入才能建立播放清單。"
+
+#: premium/public/public.php:113
+msgid "Save video to..."
+msgstr "將影片儲存至..."
+
+#: premium/public/public.php:115
+#, php-format
+msgid "You can create up to %d playlists."
+msgstr "您最多可以建立%d個播放列表。"
+
+#: premium/public/public.php:117
+msgid "Enter playlist title..."
+msgstr "輸入播放清單標題..."
+
+#: premium/public/public.php:118
+msgid "Add Playlist"
+msgstr "新增包廂"
+
+#: premium/public/public.php:119
+msgid "Update"
+msgstr "更新"
+
+#: premium/public/public.php:120
+msgid "Added..."
+msgstr "已新增"
+
+#: premium/public/public.php:121
+msgid "Removed..."
+msgstr "%s 用戶已刪除"
+
+#: premium/public/public.php:157
+msgid "This is a required field."
+msgstr "%s 為必填欄位."
+
+#: premium/public/public.php:158
+msgid "Allowed Files"
+msgstr "允许的文件类型"
+
+#: premium/public/public.php:159 premium/public/user.php:364
+#: premium/public/user.php:396 premium/public/user.php:426
+msgid "Sorry, this file format is not allowed."
+msgstr "很抱歉，不允許此檔案格式。"
+
+#: premium/public/public.php:160 premium/public/user.php:411
+msgid "Sorry, this file size is not allowed."
+msgstr "很抱歉，不允許此檔案大小。"
+
+#: premium/public/public.php:161
+msgid "Invalid video URL."
+msgstr "影片網址無效。"
+
+#: premium/public/public.php:162
+#, no-php-format
+msgid "%d% uploaded."
+msgstr "%d % u已加載。"
+
+#: premium/public/public.php:163
+msgid "Please wait..."
+msgstr "請稍候"
+
+#: premium/public/public.php:164
+msgid "Please wait until the upload is complete."
+msgstr "請等候上載完成。"
+
+#: premium/public/public.php:165
+msgid "Unknown error."
+msgstr "未知錯誤"
+
+#: premium/public/public.php:191 premium/public/public.php:209
+#: premium/public/public.php:236 premium/public/public.php:257
+msgid "Now Playing"
+msgstr "現正播放"
+
+#: premium/public/slider.php:33
+msgid "Slider"
+msgstr "幻燈片"
+
+#: premium/public/slider.php:73
+msgid "Link Video Titles to the Single Video Page?"
+msgstr "是否要將影片標題連結至單一影片頁面？"
+
+#: premium/public/slider.php:204
+msgid "Dot Size"
+msgstr "點的大小"
+
+#: premium/public/templates/single-playlist.php:23
+msgid "Video removed successfully from this playlist."
+msgstr "已成功從此播放列表中刪除影片。"
+
+#: premium/public/templates/thumbnail-generator.php:21
+msgid ""
+"(OR) use the \"Capture Image\" button below to generate an image from your "
+"video."
+msgstr "(或)使用下方的「擷取影像」按鈕，從影片中產生影像。"
+
+#: premium/public/templates/thumbnail-generator.php:36
+msgid "Capture Image"
+msgstr "擷取影像"
+
+#: premium/public/templates/thumbnail-generator.php:44
+msgid ""
+"When you submit the form, only the image you've selected will be stored in "
+"the server to keep the site clean. The other images will be deleted "
+"automatically. Still, you can recreate these images using the \"Capture Image"
+"\" button."
+msgstr ""
+"當您提交表單時，只有您選擇的圖像才會儲存在伺服器中，以保持網站清潔。其他圖片"
+"將自動刪除。不過，您可以使用「擷取影像」按鈕重新建立這些影像。"
+
+#: premium/public/templates/thumbnail-generator.php:53
+msgid "Play and capture the scene you wish as a video preview image."
+msgstr "以影片預覽影像的形式播放並捕捉您想要的場景。"
+
+#: premium/public/templates/thumbnail-generator.php:62
+#, php-format
+msgid "Seek to %s seconds"
+msgstr "尋找至%s秒"
+
+#: premium/public/templates/thumbnail-generator.php:67
+msgid "Capture This Scene"
+msgstr "捕捉此場景"
+
+#: premium/public/templates/user-dashboard.php:17
+#, php-format
+msgid ""
+"You do not have sufficient permissions to do this action. <a href=\"%s\">Go "
+"back</a>"
+msgstr "您沒有執行此操作的權限<a href=\"%s\">Go back</a>"
+
+#: premium/public/templates/user-dashboard.php:22
+msgid "Congrats, the video has been saved as a draft."
+msgstr "恭喜，影片已儲存為草稿。"
+
+#: premium/public/templates/user-dashboard.php:28
+msgid ""
+"Congrats, the video has been submitted, and it is pending review. This "
+"review process could take up to 48 hours. Please be patient."
+msgstr "恭喜，影片已送出，尚待審核。此審查過程最多可能需要48小時。請耐心等候。"
+
+#: premium/public/templates/user-dashboard.php:34
+msgid "Congrats, the video has been updated."
+msgstr "恭喜，影片已更新。"
+
+#: premium/public/templates/user-dashboard.php:40
+msgid "Congrats, the video has been published."
+msgstr "恭喜，影片已發佈。"
+
+#: premium/public/templates/user-dashboard.php:46
+msgid "The video has been deleted successfully."
+msgstr "影片已成功刪除。"
+
+#: premium/public/templates/user-dashboard.php:58
+msgid "Search videos by title"
+msgstr "按標題搜尋影片"
+
+#: premium/public/templates/user-dashboard.php:82
+msgid "Actions"
+msgstr "動作"
+
+#: premium/public/templates/user-dashboard.php:150
+#: premium/public/templates/videos-template-playlist.php:197
+#: public/templates/single-video.php:117
+#: public/templates/video-thumbnail-image-left.php:93
+#: public/templates/video-thumbnail.php:89
+#, php-format
+msgid "%s views"
+msgstr "%s 瀏覽"
+
+#: premium/public/templates/user-dashboard.php:212
+msgid "Status"
+msgstr "状态"
+
+#: premium/public/templates/user-dashboard.php:221
+msgid "Edit"
+msgstr "编辑"
+
+#: premium/public/templates/user-dashboard.php:226
+msgid "Are you SURE you want to delete this video?"
+msgstr "您確定要刪除此視頻嗎？"
+
+#: premium/public/templates/user-playlists.php:22
+msgid "The playlist has been deleted successfully."
+msgstr "播放列表已成功刪除。"
+
+#: premium/public/templates/user-playlists.php:57
+#, php-format
+msgid "%d videos"
+msgstr "%d 影片"
+
+#: premium/public/templates/user-playlists.php:59
+#, php-format
+msgid "%d video"
+msgstr "%d 視訊"
+
+#: premium/public/templates/user-playlists.php:71
+msgid "Play all"
+msgstr "全部播放"
+
+#: premium/public/templates/user-playlists.php:77
+msgid "Are you SURE you want to delete this playlist?"
+msgstr "您確定要刪除這個播放清單？"
+
+#: premium/public/templates/user-playlists.php:79
+msgid "Delete this Playlist"
+msgstr "刪除此播放清單"
+
+#: premium/public/templates/video-form.php:18
+msgid ""
+"Aborted due to spam detection. Sorry, if you are a real user and please try "
+"again. If the issue repeats, kindly write to the site administrator."
+msgstr ""
+"由於偵測到垃圾郵件而中止。很抱歉，如果您是真正的用戶，請再試一次。如果問題重"
+"複發生，請寫信給網站管理員。"
+
+#: premium/public/templates/video-form.php:24
+msgid ""
+"The form submission is too fast than we expected. So, our system has aborted "
+"the action considering a spam. Sorry, if you are a real user and please try "
+"again. If the issue repeats, kindly write to the site administrator."
+msgstr ""
+"表單提交速度超出預期。因此，考慮到垃圾郵件，我們的系統已中止此操作。很抱歉，"
+"如果您是真正的用戶，請再試一次。如果問題重複發生，請寫信給網站管理員。"
+
+#: premium/public/templates/video-form.php:30
+msgid "Congrats, your video has been saved as a draft."
+msgstr "恭喜，您的影片已儲存為草稿。"
+
+#: premium/public/templates/video-form.php:35
+#, php-format
+msgid "Fields marked with an %s are required."
+msgstr "標有%s的欄目為必填項。"
+
+#: premium/public/templates/video-form.php:41
+msgid "Enter your video title here"
+msgstr "在此輸入影片標題"
+
+#: premium/public/templates/video-form.php:72
+#: premium/public/templates/video-form.php:215
+msgid "Supported file formats"
+msgstr "支援的檔案格式"
+
+#: premium/public/templates/video-form.php:80
+#, php-format
+msgid "Maximum upload file size: %s"
+msgstr "最大檔案上傳大小：%s."
+
+#: premium/public/templates/video-form.php:94
+#: premium/public/templates/video-form.php:119
+#: premium/public/templates/video-form.php:145
+#: premium/public/templates/video-form.php:228
+#: premium/public/templates/video-form.php:390
+msgid "Cancel"
+msgstr "取消"
+
+#: premium/public/templates/video-form.php:98
+#: premium/public/templates/video-form.php:123
+#: premium/public/templates/video-form.php:149
+#: premium/public/templates/video-form.php:232
+msgid "Enter your direct file URL here"
+msgstr "在此輸入您的直接檔案網址"
+
+#: premium/public/templates/video-form.php:244
+msgid "Enter your video description here"
+msgstr "在此輸入您的描述"
+
+#: premium/public/templates/video-form.php:304 widgets/forms/video.php:25
+msgid "Start typing for suggestions"
+msgstr "開始輸入建議"
+
+#: premium/public/templates/video-form.php:371
+#, php-format
+msgid ""
+"I agree to the <a href=\"%s\" target=\"_blank\">terms and conditions</a>"
+msgstr "我同意 <a href=\"%s\" target=\"_blank\"> 使用條款 </a>"
+
+#: premium/public/templates/video-form.php:384
+msgid "Submit Video"
+msgstr "提交歌曲"
+
+#: premium/public/templates/video-form.php:385 premium/public/user.php:693
+msgid "Save Draft"
+msgstr "储存草稿"
+
+#: premium/public/templates/video-form.php:387
+msgid "Save Changes"
+msgstr "储存变更"
+
+#: premium/public/templates/videos-template-compact.php:63
+#: premium/public/templates/videos-template-playlist.php:87
+#: premium/public/templates/videos-template-popup.php:66
+#: premium/public/templates/videos-template-slider-classic.php:78
+#: premium/public/templates/videos-template-slider-compact.php:106
+#: premium/public/templates/videos-template-slider-inline.php:75
+#: premium/public/templates/videos-template-slider-popup.php:111
+#: public/templates/videos-template-classic.php:27
+#, php-format
+msgid "%s video found"
+msgid_plural "%s videos found"
+msgstr[0] ""
+
+#: premium/public/templates/videos-template-playlist.php:213
+#: public/templates/video-thumbnail-image-left.php:109
+#: public/templates/video-thumbnail.php:105
+msgid "likes"
+msgstr "喜歡"
+
+#: premium/public/templates/videos-template-playlist.php:227
+#: public/templates/video-thumbnail-image-left.php:123
+#: public/templates/video-thumbnail.php:119
+msgid "dislikes"
+msgstr "不喜歡"
+
+#: premium/public/thumbnail-generator.php:48 public/video.php:593
+msgid "Invalid file format."
+msgstr "無效的檔案格式。"
+
+#: premium/public/thumbnail-generator.php:52 premium/public/user.php:402
+#: premium/public/user.php:507
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "很抱歉，不允许使用此文件类型。"
+
+#: premium/public/user.php:181 premium/public/user.php:195
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您沒有足夠的權限通行此頁面。"
+
+#: premium/public/user.php:346 premium/public/user.php:359
+msgid "You do not have permission to upload files."
+msgstr "你沒有上傳檔案的權限。"
+
+#: premium/public/user.php:435
+#, php-format
+msgid ""
+"The uploads directory (%s) is not writable (as verified by attempting to "
+"write to it). You need to fix this (asking your hosting company for help if "
+"necessary) to be able to upload any videos."
+msgstr ""
+"上傳目錄（ %s ）不可寫入（通過嘗試寫入來驗證）。你必須解決此問題（如有需要，"
+"請向託管公司尋求協助） ，才能上傳任何影片。"
+
+#: premium/widgets/companion.php:44
+msgid "AIOVG - Companion Ads"
+msgstr "AIOVG -精靈廣告"
+
+#: premium/widgets/companion.php:47
+msgid "Display a companion ad."
+msgstr "顯示隨播廣告。"
+
+#: premium/widgets/forms/companion.php:22
+msgid "Height"
+msgstr "高度"
+
+#: premium/widgets/forms/companion.php:27
+msgid "Ad Unit Path"
+msgstr "廣告單元路徑"
+
+#: premium/widgets/forms/companion.php:31
+#, php-format
+msgid ""
+"Optional. Full path of the ad unit with the network code and unit code. "
+"Required only when you enable the <a href=\"%s\" target=\"_blank\">Google "
+"Publisher Tag (GPT)</a> in the <a href=\"%s\">plugin settings</a>."
+msgstr ""
+"可選。廣告單元的完整路徑，包含網路代碼和單位代碼。只有在外<a href=\"%s\">掛程"
+"式設</a>定中啟用<a href=\"%s\" target=\"_blank\">Google發佈商標籤(GPT)</a>時"
+"才需要。"
+
+#: public/public.php:268
+msgid "Sorry, you must login to vote."
+msgstr "很抱歉，您必須登入才能投票。"
+
+#: public/public.php:288 public/templates/player-videojs.php:19
+msgid ""
+"This stream is currently not live. Please check back or refresh your page."
+msgstr "此串流目前未上線。請返回查看或重新整理頁面。"
+
+#: public/public.php:1165
+#, php-format
+msgid "Showing results for \"%s\""
+msgstr "顯示「%s」的搜尋結果"
+
+#: public/templates/categories-template-dropdown.php:25
+#: public/templates/search-form-template-horizontal.php:37
+#: public/templates/search-form-template-vertical.php:37
+msgid "Select a Category"
+msgstr "請選擇分類"
+
+#: public/templates/category-thumbnail.php:40
+#, php-format
+msgid "%s video"
+msgid_plural "%s videos"
+msgstr[0] ""
+
+#: public/templates/search-form-template-horizontal.php:26
+#: public/templates/search-form-template-vertical.php:26
+msgid "Enter your Keyword"
+msgstr "輸入您的搜尋內容"
+
+#: public/templates/search-form-template-horizontal.php:109
+#: public/templates/search-form-template-horizontal.php:148
+#: public/templates/search-form-template-vertical.php:134
+msgid "Reset"
+msgstr "重置"
+
+#: public/templates/single-video.php:139
+msgid "You may also like"
+msgstr "你可能也會喜歡"
+
+#: public/video.php:404 public/video.php:441 public/video.php:446
+msgid "File is not readable or not found."
+msgstr "檔案無法讀取或找不到。"
+
+#: public/videos.php:152
+msgid "Sub Categories"
+msgstr "子類別"
+
+#: widgets/forms/categories.php:147
+msgid "Show More Button"
+msgstr "顯示閱讀內容按鈕"
+
+#: widgets/forms/video.php:42
+msgid "Latest Video"
+msgstr "最新影片"
+
+#: widgets/video.php:207
+msgid "No videos found. Click this to display the last added video."
+msgstr "找不到影片。按一下此處可顯示上次新增的影片。"
